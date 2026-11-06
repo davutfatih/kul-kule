@@ -2,6 +2,6 @@
 
 BurunHane'nin karanlık fantastik kart oyunu Kül Kule'nin resmi sitesi.
 
-Site: https://davutfatih.github.io/kul-kule/
+Site: https://kulkule.web.app
 
 Yönetim için: [YONETIM.md](YONETIM.md)

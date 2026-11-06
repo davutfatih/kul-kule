@@ -1,8 +1,8 @@
 # Kül Kule sitesi — Yönetim kılavuzu (BurunHane)
 
-Site adresi: **https://davutfatih.github.io/kul-kule/**
+Site adresi: **https://kulkule.web.app**
 
-Site GitHub Pages'te ücretsiz yayınlanır. Bu depoda (`davutfatih/kul-kule`) bir dosya değiştiğinde site 1–2 dakika içinde kendiliğinden güncellenir. Sunucu, ödeme ya da ek kurulum gerekmez.
+Site Google Firebase Hosting'in ücretsiz planında yayınlanır (Firebase projesi: `kulkule`, hesap: davutcetin14@gmail.com). Kaynak dosyalar GitHub'daki `davutfatih/kul-kule` deposundadır: bu depoda bir dosya değiştiğinde GitHub Actions siteyi 1–2 dakika içinde kendiliğinden Firebase'e yeniden yükler. Ödeme gerekmez.
 
 ## 1) Yönetim paneli (önerilen yol: kod bilmeden düzenleme)
 
@@ -34,10 +34,17 @@ github.com/davutfatih/kul-kule → **Releases** → **Draft a new release** → 
 Sitedeki indirme düğmesi her zaman en son sürüme (`/releases/latest`) gider, ayrıca değiştirmen gerekmez.
 Not: GitHub dosya başına en çok 2 GB kabul eder; oyunu 7-Zip ile "Bölümlere ayır: 1900M" seçeneğiyle paketle.
 
+## Elle yayınlama (otomatik yayın çalışmazsa)
+
+Komut isteminde:
+
+```
+cd C:\KulKule\site
+C:\KulKule\tools\node-v26.13.0-win-x64\firebase.cmd deploy --only hosting
+```
+
+Firebase panelinden (https://console.firebase.google.com/project/kulkule/hosting) eski bir sürüme tek tıkla geri dönebilirsin.
+
 ## Kendi .com adresini bağlamak (isteğe bağlı, yıllık ~10 $)
 
-1. Bir alan adı satın al (ör. Cloudflare Registrar, Porkbun, Namecheap): `kulkule.com`, `burunhane.com` gibi.
-2. Alan adının DNS ayarlarına şu kayıtları ekle:
-   - `A` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `CNAME` → `www` → `davutfatih.github.io`
-3. github.com/davutfatih/kul-kule → **Settings → Pages → Custom domain** kutusuna alan adını yaz → **Save** → birkaç dakika sonra **Enforce HTTPS**'i işaretle.
+Firebase panelinde **Hosting → Add custom domain** ile satın aldığın alan adını ekle; gösterdiği DNS kayıtlarını alan adı sağlayıcına gir.
