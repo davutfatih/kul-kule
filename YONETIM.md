@@ -2,12 +2,12 @@
 
 Site adresi: **https://kulkule.web.app**
 
-Site Google Firebase Hosting'in ücretsiz planında yayınlanır (Firebase projesi: `kulkule`, hesap: davutcetin14@gmail.com). Kaynak dosyalar GitHub'daki `davutfatih/kul-kule` deposundadır: bu depoda bir dosya değiştiğinde GitHub Actions siteyi 1–2 dakika içinde kendiliğinden Firebase'e yeniden yükler. Ödeme gerekmez.
+Site Google Firebase Hosting'in ücretsiz planında yayınlanır (Firebase projesi: `kulkule`, hesap: davutcetin14@gmail.com). Kaynak dosyalar GitHub'daki `BurunHane/kul-kule` deposundadır: bu depoda bir dosya değiştiğinde GitHub Actions siteyi 1–2 dakika içinde kendiliğinden Firebase'e yeniden yükler. Ödeme gerekmez.
 
 ## 1) Yönetim paneli (önerilen yol: kod bilmeden düzenleme)
 
-1. **https://app.pagescms.org** adresine git, **Sign in with GitHub** ile `davutfatih` hesabınla giriş yap.
-2. İlk girişte Pages CMS, GitHub uygulamasını kurmanı ister: **Install** de, yalnızca `kul-kule` deposunu seç.
+1. **https://app.pagescms.org** adresine git, **Sign in with GitHub** ile `davutfatih` hesabınla giriş yap (BurunHane organizasyonunun sahibi bu hesap).
+2. İlk girişte Pages CMS, GitHub uygulamasını kurmanı ister: **Install** de, **BurunHane** organizasyonunu seç ve yalnızca `kul-kule` deposuna izin ver.
 3. Depolar listesinden **kul-kule**'yi aç → soldaki **Site İçeriği**.
 4. Hikâye, kahramanlar, nasıl oynanır, kontroller, çevrim içi, yapımcı, SSS, galeri, indirme bağlantısı ve demo notu buradan düzenlenir.
    - Resim değiştirmek veya galeriye resim eklemek için resim alanına tıkla, bilgisayarından yükle.
@@ -15,7 +15,7 @@ Site Google Firebase Hosting'in ücretsiz planında yayınlanır (Firebase proje
 
 ## 2) GitHub üzerinden doğrudan düzenleme (yedek yol)
 
-github.com/davutfatih/kul-kule → `icerik/site.json` → kalem simgesi (✏️) → düzenle → **Commit changes**.
+github.com/BurunHane/kul-kule → `icerik/site.json` → kalem simgesi (✏️) → düzenle → **Commit changes**.
 Tırnak ve virgüllere dikkat et; JSON bozulursa site "İçerik yüklenemedi" der. Geri almak için dosyanın **History** sekmesinden eski sürüme dönebilirsin.
 
 ## Dosyalar
@@ -30,7 +30,7 @@ Tırnak ve virgüllere dikkat et; JSON bozulursa site "İçerik yüklenemedi" de
 
 ## Yeni oyun sürümü yayınlamak
 
-github.com/davutfatih/kul-kule → **Releases** → **Draft a new release** → parçaları (`KulKule-Demo.zip.001`, `.002` …) sürükle bırak → **Publish**.
+github.com/BurunHane/kul-kule → **Releases** → **Draft a new release** → parçaları (`KulKule-Demo.zip.001`, `.002` …) sürükle bırak → **Publish**.
 Sitedeki indirme düğmesi her zaman en son sürüme (`/releases/latest`) gider, ayrıca değiştirmen gerekmez.
 Not: GitHub dosya başına en çok 2 GB kabul eder; oyunu 7-Zip ile "Bölümlere ayır: 1900M" seçeneğiyle paketle.
 
