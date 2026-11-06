@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kül Kule — BurunHane</title>
+<meta name="description" content="Kül Kule: 16 katlı lanetli bir kuleye kart destenle tırmandığın karanlık fantastik rogue-lite kart oyunu. Ücretsiz demo — BurunHane.">
+<meta property="og:title" content="Kül Kule — BurunHane">
+<meta property="og:description" content="Kristal kırılmazsa, o ateş bütün dünyayı saracak. Ücretsiz demo.">
+<meta property="og:image" content="img/g_kapi.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<header class="ust">
+  <a class="logo" href="#ana">🔥 <span>Kül Kule</span></a>
+  <button class="menu-ac" aria-label="Menü" onclick="document.body.classList.toggle('menu-acik')">☰</button>
+  <nav>
+    <a href="#hikaye">Hikâye</a><a href="#kahramanlar">Kahramanlar</a><a href="#nasil">Nasıl Oynanır</a>
+    <a href="#kartlar">Kartlar</a><a href="#kombolar">Kombolar</a><a href="#canavarlar">Canavarlar</a>
+    <a href="#cevrimici">Çevrim İçi</a><a href="#galeri">Galeri</a><a href="#yapimci">BurunHane</a>
+    <a class="dg" href="#indir">İndir</a>
+  </nav>
+</header>
+
+<section id="ana" class="kapak">
+  <div class="kapak-bg"></div>
+  <div class="kivilcimlar" aria-hidden="true"></div>
+  <div class="kapak-ic">
+    <div class="rozet" data-k="surum">Demo</div>
+    <h1 data-k="baslik">Kül Kule</h1>
+    <p class="slogan" data-k="slogan"></p>
+    <p class="tanitim" data-k="kisa_tanitim"></p>
+    <div class="dugmeler"><a class="dugme ana" href="#indir">⬇ Ücretsiz Demoyu İndir</a><a class="dugme" href="#hikaye">Hikâyeyi Oku</a></div>
+    <p class="yapan">Bir <b>BurunHane</b> oyunu</p>
+  </div>
+</section>
+
+<div class="demo-serit"><b>DEMO</b> <span data-k="demo_notu"></span></div>
+
+<section id="hikaye" class="bolum dar">
+  <h2>Hikâye</h2>
+  <div class="hikaye" id="hikaye-ic"></div>
+</section>
+
+<section id="kahramanlar" class="bolum">
+  <h2>Dört Kahraman</h2>
+  <p class="alt">Her kahramanın kendi destesi, kendi kaynağı ve 32 kendine özel kartı var.</p>
+  <div class="kahraman-izgara" id="kahraman-ic"></div>
+</section>
+
+<section id="nasil" class="bolum">
+  <h2>Nasıl Oynanır?</h2>
+  <div class="adimlar" id="adim-ic"></div>
+  <div class="zorluk"><h3>⚠ Kolay değil</h3><p data-k="zorluk"></p></div>
+  <h3 class="ortala">Kontroller</h3>
+  <div class="kontroller" id="kontrol-ic"></div>
+</section>
+
+<section id="kartlar" class="bolum">
+  <h2>Kart Sistemi</h2>
+  <p class="alt"><span id="kart-say"></span> kart · 14 kart türü · 5 nadirlik: Demir, Bronz, Gümüş, Altın, Kristal</p>
+  <div class="aciklama-kutular">
+    <div class="kutu"><h3>⚡ Enerji ve Kor</h3><p>Her tur enerjin yenilenir; her kartın sol üstünde bedeli yazar. Harcamadığın 1 enerji <b>Kor</b> olarak sonraki tura geçer. Elinde en çok 10 kart tutabilirsin; deste bitince atıklar karıştırılıp yeniden çekilir. Sağ tıkla bir kartı sonraki tura <b>saklayabilirsin</b>.</p></div>
+    <div class="kutu"><h3>⛓ Zincir</h3><p>Aynı turda oynadığın her kart zinciri büyütür. <b>Bitirici</b> etiketli kartlar zinciri harcar ve zincir ne kadar uzunsa o kadar sert vurur. Zincir 12'ye ulaşınca Efsanevi Son açılır.</p></div>
+    <div class="kutu"><h3>🎯 Zayıflık ve Direnç</h3><p>Her canavar bazı türlere karşı <b>zayıf</b> (×1,5 hasar), bazılarına karşı <b>dirençli</b> (×0,5 hasar). Doğru türü seçmek, güçlü kart seçmekten daha önemlidir.</p></div>
+    <div class="kutu"><h3>🔮 Niyetler</h3><p>Canavarın üstündeki simge bir sonraki hamlesini gösterir. Turuncu niyetler tehlikelidir: <b>Kıyamet</b>, Pusu, Büyü Yutma, Ayna, Sayım. Kıyameti hasar ya da Sersem/Soğuk ile kesmezsen ağır bedel ödersin.</p></div>
+  </div>
+  <h3 class="ortala">Kart Türleri</h3>
+  <div class="turler" id="tur-ic"></div>
+  <h3 class="ortala">Durumlar</h3>
+  <div class="durumlar" id="durum-ic"></div>
+  <h3 class="ortala">Tüm Kartlar</h3>
+  <div class="suzgec">
+    <input type="search" id="kart-ara" placeholder="Kart ara… (ör. Zehir, Kalkan)">
+    <select id="kart-kahraman"><option value="">Tüm kahramanlar</option><option value="ortak">Ortak</option><option value="w">Savaşçı</option><option value="r">Suikastçı</option><option value="m">Büyücü</option><option value="p">Ruhban</option></select>
+    <select id="kart-tur"><option value="">Tüm türler</option></select>
+  </div>
+  <div class="kart-izgara" id="kart-ic"></div>
+  <button class="dugme kucuk ortala-d" id="kart-daha">Daha fazla göster</button>
+</section>
+
+<section id="kombolar" class="bolum">
+  <h2>Kombolar</h2>
+  <p class="alt"><span id="kombo-say"></span> kombo. Kombo tamamlayacak kartın üstünde ⚡ belirir; bulduğun kombolar oyundaki Kombo Defteri'ne yazılır. Bir turda en çok 3 kombonun etkisi işler.</p>
+  <div class="aileler" id="aile-ic"></div>
+  <div class="suzgec">
+    <input type="search" id="kombo-ara" placeholder="Kombo ara… (ör. Buhar, Ezici)">
+    <select id="kombo-aile"><option value="">Tüm aileler</option></select>
+  </div>
+  <div class="kombo-liste" id="kombo-ic"></div>
+  <button class="dugme kucuk ortala-d" id="kombo-daha">Daha fazla göster</button>
+</section>
+
+<section id="canavarlar" class="bolum">
+  <h2>Kulenin Sakinleri</h2>
+  <p class="alt"><span id="canavar-say"></span> canavar: sıradan yaratıklar, elitler ve bosslar. ▲ zayıf olduğu tür · ▼ dirençli olduğu tür</p>
+  <div class="sekmeler" id="canavar-sekme"></div>
+  <div class="canavar-izgara" id="canavar-ic"></div>
+  <h3 class="ortala">Kalıntılar</h3>
+  <p class="alt">Hazinelerde, tüccarlarda ve bosslardan sonra bulduğun 28 kalıntı oyunun kurallarını senin lehine büker.</p>
+  <div class="kalinti-izgara" id="kalinti-ic"></div>
+</section>
+
+<section id="cevrimici" class="bolum dar">
+  <h2 data-k="cevrimici.baslik">Arkadaşlarınla tırman</h2>
+  <p class="buyuk" data-k="cevrimici.metin"></p>
+  <p class="not" data-k="cevrimici.not"></p>
+</section>
+
+<section id="galeri" class="bolum">
+  <h2>Galeri</h2>
+  <div class="galeri" id="galeri-ic"></div>
+</section>
+
+<section id="indir" class="bolum dar">
+  <h2>İndir</h2>
+  <div class="indir-kutu">
+    <div class="rozet" data-k="surum"></div>
+    <h3 data-k="indirme.baslik"></h3>
+    <p class="boyut" data-k="indirme.boyut"></p>
+    <a class="dugme ana buyuk-d" id="indir-dugme" href="#">⬇ İndirme Sayfasına Git</a>
+    <p class="not" data-k="demo_notu"></p>
+    <div class="iki-sutun">
+      <div><h4>Sistem gereksinimleri</h4><ul id="gerek-ic"></ul></div>
+      <div><h4>Kurulum</h4><ol id="kurulum-ic"></ol></div>
+    </div>
+  </div>
+</section>
+
+<section id="yapimci" class="bolum dar">
+  <h2>Yapımcı</h2>
+  <div class="yapimci">
+    <div class="yapimci-logo">👃🏠</div>
+    <div><h3 data-k="yapimci.ad"></h3><p data-k="yapimci.metin"></p><p id="iletisim-ic"></p></div>
+  </div>
+</section>
+
+<section id="sss" class="bolum dar">
+  <h2>Sık Sorulanlar</h2>
+  <div id="sss-ic"></div>
+</section>
+
+<footer class="alt-bilgi">
+  <p>© <span id="yil"></span> <b>BurunHane</b> · Kül Kule <span data-k="surum"></span></p>
+</footer>
+
+<div class="buyutec" id="buyutec" onclick="this.classList.remove('acik')"><img alt=""><p></p></div>
+<script src="site.js"></script>
+</body>
+</html>

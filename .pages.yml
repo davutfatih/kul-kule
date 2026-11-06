@@ -1,0 +1,108 @@
+# Kül Kule sitesi — Pages CMS yönetim paneli (https://app.pagescms.org)
+media:
+  input: img
+  output: /img
+  extensions: [jpg, jpeg, png, webp, gif]
+
+content:
+  - name: site
+    label: Site İçeriği
+    type: file
+    path: icerik/site.json
+    format: json
+    fields:
+      - { name: baslik, label: Oyunun adı, type: string }
+      - { name: slogan, label: Slogan, type: string }
+      - { name: kisa_tanitim, label: Kısa tanıtım (kapakta), type: text }
+      - { name: surum, label: Sürüm (ör. Demo 0.9), type: string }
+      - { name: demo_notu, label: Demo uyarısı, type: text }
+      - { name: kapak, label: Kapak resmi, type: image }
+      - name: indirme
+        label: İndirme
+        type: object
+        fields:
+          - { name: aktif, label: İndirme açık mı, type: boolean }
+          - { name: baslik, label: Başlık, type: string }
+          - { name: boyut, label: Boyut, type: string }
+          - { name: adres, label: İndirme adresi (bağlantı), type: string }
+          - { name: gereksinimler, label: Sistem gereksinimleri, type: string, list: true }
+          - { name: kurulum, label: Kurulum adımları, type: text, list: true }
+      - { name: hikaye, label: Hikâye (her kutu bir paragraf), type: text, list: true }
+      - name: kahramanlar
+        label: Kahramanlar
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{ad}"
+        fields:
+          - { name: kod, label: Kod (w / r / m / p — değiştirme), type: string }
+          - { name: ad, label: Ad, type: string }
+          - { name: unvan, label: Unvan, type: string }
+          - { name: resim, label: Resim, type: image }
+          - { name: silah, label: Silah, type: string }
+          - { name: kaynak, label: Kaynak (Öfke, İnanç…), type: string }
+          - { name: oynanis, label: Oynanış, type: text }
+          - { name: ipucu, label: İpucu, type: text }
+      - name: nasil_oynanir
+        label: Nasıl oynanır adımları
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{baslik}"
+        fields:
+          - { name: baslik, label: Başlık, type: string }
+          - { name: metin, label: Metin, type: text }
+      - { name: zorluk, label: Zorluk notu, type: text }
+      - name: kontroller
+        label: Kontroller
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{tus}"
+        fields:
+          - { name: tus, label: Tuş, type: string }
+          - { name: is, label: Ne yapar, type: string }
+      - name: cevrimici
+        label: Çevrim içi bölümü
+        type: object
+        fields:
+          - { name: baslik, label: Başlık, type: string }
+          - { name: metin, label: Metin, type: text }
+          - { name: not, label: Not, type: text }
+      - name: yapimci
+        label: Yapımcı (BurunHane)
+        type: object
+        fields:
+          - { name: ad, label: Ad, type: string }
+          - { name: metin, label: Hakkında, type: text }
+          - { name: iletisim, label: İletişim (e-posta vb.), type: string }
+          - name: sosyal
+            label: Sosyal medya bağlantıları
+            type: object
+            list: true
+            fields:
+              - { name: ad, label: Ad (ör. YouTube), type: string }
+              - { name: adres, label: Bağlantı, type: string }
+      - name: sss
+        label: Sık sorulanlar
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{s}"
+        fields:
+          - { name: s, label: Soru, type: string }
+          - { name: c, label: Cevap, type: text }
+      - name: galeri
+        label: Galeri
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{yazi}"
+        fields:
+          - { name: resim, label: Resim, type: image }
+          - { name: yazi, label: Açıklama, type: string }

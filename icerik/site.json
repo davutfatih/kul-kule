@@ -1,0 +1,215 @@
+{
+ "baslik": "Kül Kule",
+ "slogan": "Kristal kırılmazsa, o ateş bütün dünyayı saracak.",
+ "kisa_tanitim": "Kül Kule; kart destesi kurup kombolar zincirlediğin, 16 katlı lanetli bir kuleye tek başına ya da arkadaşlarınla tırmandığın karanlık fantastik bir rogue-lite kart oyunu.",
+ "surum": "Demo 0.9",
+ "demo_notu": "Bu bir DEMO sürümüdür. Oyun hâlâ geliştiriliyor: hatalar, eksik içerik ve denge değişiklikleri olabilir. Geri bildirimlerin oyunu şekillendirecek!",
+ "indirme": {
+  "aktif": true,
+  "baslik": "Kül Kule Demo — Windows",
+  "boyut": "~8 GB (indirme parçalı)",
+  "adres": "https://github.com/davutfatih/kul-kule/releases/latest",
+  "gereksinimler": [
+   "Windows 10 / 11 (64 bit)",
+   "DirectX 12 destekli ekran kartı (GTX 1660 / RX 5600 ve üstü önerilir)",
+   "16 GB RAM",
+   "20 GB boş disk alanı (çıkarma sırasında)",
+   "Çevrim içi mod ve sesli sohbet için internet bağlantısı ve mikrofon"
+  ],
+  "kurulum": [
+   "İndirme sayfasındaki tüm parçaları (KulKule-Demo.zip.001, .002 …) aynı klasöre indir.",
+   "7-Zip ya da WinRAR ile yalnızca KulKule-Demo.zip.001 dosyasını aç; diğer parçalar kendiliğinden birleşir.",
+   "Ek program kurmak istemiyorsan: parçaların olduğu klasörde komut istemine  copy /b KulKule-Demo.zip.0* KulKule-Demo.zip  yaz, çıkan .zip dosyasını sağ tık → Tümünü ayıkla ile aç.",
+   "Klasördeki kulkule.exe dosyasını çalıştır. İlk açılışta gölgelendiriciler hazırlanırken birkaç saniye takılma olabilir."
+  ]
+ },
+ "hikaye": [
+  "Bir zamanlar, Kül Vadisi'nin dibinde küçük bir köy vardı. İnsanlar ekmeğini topraktan çıkarır, geceleri ocak başında masallar anlatırdı.",
+  "Ta ki bir gece, kulenin tepesindeki Kızıl Kristal uyanana dek. Gökten ateş yağdı; köy, tek bir gecede küle döndü. Ve toprağın altında uyuyanlar, birer birer uyandı.",
+  "Küllerin arasından dört yabancı çıkageldi: Kule Savaşçısı, Gölge Suikastçı, Zehir Büyücüsü ve Kule Ruhbanı. Ölüler kapıyı tutuyordu; ama ruhbanın ışığı karanlığı yardı.",
+  "Şimdi kule onları bekliyor. Her katta üç kapı, her kapının ardında başka bir kader. Kristal kırılmazsa, o ateş bütün dünyayı saracak."
+ ],
+ "kahramanlar": [
+  {
+   "kod": "w",
+   "ad": "Kule Savaşçısı",
+   "unvan": "Kalkanı hiç yere düşmedi",
+   "resim": "img/kahraman_w.jpg",
+   "silah": "Kılıç ve kalkan",
+   "kaynak": "Öfke",
+   "oynanis": "Darbe aldıkça ve vurdukça Öfke biriktirir. Kalın blok kurar, sonra o bloğu Ezici kartlarla düşmana geri çarpar. 8 Öfke ile Ezici kart oynamak Öfke Patlaması'nı tetikler; canı azaldığında Son Direniş ile saldırılarını ikiye katlar.",
+   "ipucu": "Savunma → Savunma → Ezici sırası (Duvar ve Çekiç) bloğun kadar ek hasar verir."
+  },
+  {
+   "kod": "r",
+   "ad": "Gölge Suikastçı",
+   "unvan": "Onu gören, hikâyesini anlatamadı",
+   "resim": "img/kahraman_r.jpg",
+   "silah": "Çift hançer",
+   "kaynak": "Gölge İzi",
+   "oynanis": "0 enerjilik hızlı kartlarla tur başına çok sayıda hamle yapar ve her biriyle Gölge İzi bırakır. Zehir ve Kanama ile düşmanı yavaş yavaş eritir, kesin kritik vuruşlarla bitirir. 5 Gölge İzi Ölüm Dansı'nı açar: üç ayrı gölge vuruşu.",
+   "ipucu": "Art arda üç 0 bedelli kart (Şimşek Hızı) +1 enerji ve 1 kart verir."
+  },
+  {
+   "kod": "m",
+   "ad": "Zehir Büyücüsü",
+   "unvan": "Alevi ve zehri aynı avuçta tutar",
+   "resim": "img/kahraman_m.jpg",
+   "silah": "Kristal asa",
+   "kaynak": "Rezonans",
+   "oynanis": "Ateş, Buz, Zehir ve Şimşek'i çarpıştırarak element tepkimeleri yaratır. Soğuk düşmana Yanık vurmak Buhar Patlaması, Zehirliye Yanık vurmak Zehir Alevi doğurur. Doğru sırayla oynandığında destenin en yüksek hasarını o çıkarır.",
+   "ipucu": "Bir turda dört farklı element durumu uygula: Element Kasırgası."
+  },
+  {
+   "kod": "p",
+   "ad": "Kule Ruhbanı",
+   "unvan": "Karanlıkta yanan son ışık",
+   "resim": "img/kahraman_p.jpg",
+   "silah": "Kutsal topuz",
+   "kaynak": "İnanç",
+   "oynanis": "Kutsal vuruşlarla Işık İzi bırakır, iyileştirir ve İnanç biriktirir. 6 İnanç ile İnanç Mucizesi bir sonraki kartı bedavaya oynatır. Kurban kartlarıyla can harcayıp güce dönüştürür; co-op'ta ekibin can simididir.",
+   "ipucu": "Ölü düşmanlara karşı Kutsal hasar çoğu zaman en etkili türdür."
+  }
+ ],
+ "nasil_oynanir": [
+  {
+   "baslik": "1. Kahramanını seç",
+   "metin": "Dört kahramandan birini seç. Her biri kendi başlangıç destesi (10 kart), kendi kaynağı ve 32 kendine özel kartla gelir. 46 ortak kart herkese açıktır."
+  },
+  {
+   "baslik": "2. Kapını seç",
+   "metin": "Kulenin her katında üç kapı var: Savaş, Elit, Olay, Kamp, Hazine, Tüccar, Tapınak ya da Boss. Kapının üstünde ne olduğu yazar. Kapıya yürü ve içeri gir; yalnızca bir önceki kapının yanındaki kapılara geçebilirsin, rotanı dikkatli kur."
+  },
+  {
+   "baslik": "3. Savaş",
+   "metin": "Her tur enerjin yenilenir ve elinden kart oynarsın. Canavarın üstündeki niyet simgesi bir sonraki hamlesini gösterir: saldırı mı, savunma mı, yoksa Kıyamet mi hazırlıyor? Niyeti oku, doğru türde kartı seç, gerekirse kartını sakla."
+  },
+  {
+   "baslik": "4. Zinciri büyüt",
+   "metin": "Aynı turda oynadığın her kart zinciri büyütür. Bitirici kartlar zinciri harcayıp büyük hasar verir. Harcamadığın 1 enerji sonraki tura Kor olarak geçer. Bir turda en çok 3 kombonun etkisi işler."
+  },
+  {
+   "baslik": "5. Ödülünü al, desteni güçlendir",
+   "metin": "Kazandığın her savaştan sonra üç karttan birini desteye ekle ya da geç. Kamplarda dinlen veya kart yükselt, tüccardan kart ve kalıntı al, hazinelerde kalıntı bul. 28 kalıntı oyunun kurallarını senin lehine büker."
+  },
+  {
+   "baslik": "6. Kuleyi fethet",
+   "metin": "16 kat, iki bölge. 8. ve 16. katta boss seni bekler. Ölürsen baştan başlarsın; ama her deneme kuleyi biraz daha iyi tanımanı sağlar."
+  }
+ ],
+ "zorluk": "Kül Kule kolay değil. Rastgele kart basan oyuncular çoğunlukla ilk boss'u bile göremez. Her canavarın zayıf (×1,5 hasar) ve dirençli (×0,5 hasar) olduğu türler, oyununu okuyan özellikleri ve özel niyetleri var. Kazanmak için düşünmen gerekir.",
+ "kontroller": [
+  {
+   "tus": "W A S D",
+   "is": "Kapı odasında yürü"
+  },
+  {
+   "tus": "Fare",
+   "is": "Etrafa bak"
+  },
+  {
+   "tus": "Shift",
+   "is": "Koş"
+  },
+  {
+   "tus": "Sol tık",
+   "is": "Silahınla saldırı hareketi"
+  },
+  {
+   "tus": "Sağ tık (basılı)",
+   "is": "Savunma / büyü duruşu"
+  },
+  {
+   "tus": "V",
+   "is": "Bakış açısını değiştir"
+  },
+  {
+   "tus": "Kapıya yürü",
+   "is": "Kapıyı seç ve gir"
+  },
+  {
+   "tus": "Kartlar: fareyle sürükle ya da tıkla",
+   "is": "Kart oyna (sağ tık: kartı sakla)"
+  },
+  {
+   "tus": "ESC",
+   "is": "Menü: ayarlar, ses, grafik, çok oyunculu, oyundan çık"
+  }
+ ],
+ "cevrimici": {
+  "baslik": "Arkadaşlarınla tırman",
+  "metin": "Çevrim içi modda lobi kur ya da bir lobiye katıl, kuleye birlikte gir. Kapıları oylayarak seçersiniz; savaşta yoldaşının oynadığı kartlar seninkileri tetikler (14 takım kombosu). Canavarlar oyuncu sayısına göre güçlenir ve ekibe karşı farklı düşünür: en çok vuranı hedefler, tek kişinin hasarını sınırlar, ekibin bloğunu sınar. Dahili sesli sohbet ile konuşarak oynayın; Co-op panelindeki 🎤 düğmesine basmanız yeterli.",
+  "not": "Lobi sunucusu ücretsizdir; uzun süre kimse bağlanmazsa uykuya geçer. Oyun açılınca kendiliğinden uyandırılır; ilk bağlantı en fazla bir dakika sürebilir."
+ },
+ "yapimci": {
+  "ad": "BurunHane",
+  "metin": "Kül Kule, bağımsız geliştirici BurunHane tarafından tasarlanıp geliştirilmektedir. Hikâyesinden kart sistemine, kombolardan kule katlarına kadar her şey tek bir hayalin ürünü: oynarken düşünmeyi ödüllendiren, karanlık ama sıcak bir kart oyunu. Oyun Unreal Engine 5 ile geliştirilmektedir.",
+  "iletisim": "",
+  "sosyal": []
+ },
+ "sss": [
+  {
+   "s": "Oyun ücretsiz mi?",
+   "c": "Evet, demo sürümü tamamen ücretsizdir."
+  },
+  {
+   "s": "Kaydım silinir mi?",
+   "c": "Hayır. Harita ekranındaki son ilerlemen otomatik kaydedilir; savaşın ortasında çıkarsan o savaş baştan başlar."
+  },
+  {
+   "s": "Kaç kişi birlikte oynayabilir?",
+   "c": "Çevrim içi modda arkadaşlarınla aynı lobide birlikte tırmanabilirsin."
+  },
+  {
+   "s": "Oyun Türkçe mi?",
+   "c": "Evet, oyun baştan sona Türkçedir; anlatıcı sesi de Türkçedir."
+  },
+  {
+   "s": "Windows uyarı verdi, ne yapmalıyım?",
+   "c": "Oyun henüz dijital olarak imzalı olmadığı için Windows SmartScreen 'Bilinmeyen yayımcı' diyebilir. 'Ek bilgi' → 'Yine de çalıştır' seçeneğiyle açabilirsin."
+  },
+  {
+   "s": "Hata buldum, nereye bildireyim?",
+   "c": "Aşağıdaki iletişim bölümünden ya da GitHub sayfasındaki 'Issues' bölümünden bildirebilirsin."
+  }
+ ],
+ "galeri": [
+  {
+   "resim": "img/g_koy.jpg",
+   "yazi": "Kül Vadisi'ndeki köy, yangından önce"
+  },
+  {
+   "resim": "img/g_yangin.jpg",
+   "yazi": "Gökten ateş yağdığı gece"
+  },
+  {
+   "resim": "img/g_mezar.jpg",
+   "yazi": "Toprağın altında uyuyanlar uyanıyor"
+  },
+  {
+   "resim": "img/g_kapi.jpg",
+   "yazi": "Dört yabancı kulenin kapısında"
+  },
+  {
+   "resim": "img/g_kapi2.jpg",
+   "yazi": "Kule, onları bekliyor"
+  },
+  {
+   "resim": "img/g_oda.jpg",
+   "yazi": "Üç kapı, üç kader"
+  },
+  {
+   "resim": "img/g_oda2.jpg",
+   "yazi": "Her kat başka bir oda"
+  },
+  {
+   "resim": "img/g_oda3.jpg",
+   "yazi": "Buzlu salonlar"
+  },
+  {
+   "resim": "img/g_savas.jpg",
+   "yazi": "Savaş başlıyor"
+  }
+ ],
+ "kapak": "img/kapak.jpg"
+}

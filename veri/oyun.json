@@ -1,0 +1,4110 @@
+{
+ "not": "Bu dosya oyunun kendi verisinden üretilir (kartlar, kombolar, canavarlar).",
+ "kartlar": [
+  {
+   "ad": "Kesik",
+   "kahraman": "ortak",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "6 hasar."
+  },
+  {
+   "ad": "Siper",
+   "kahraman": "ortak",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "5 blok."
+  },
+  {
+   "ad": "Tokmak",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 2,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "9 hasar. 1 Sersem."
+  },
+  {
+   "ad": "Ok Atışı",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "7 hasar. Bloğun yarısını yok sayar."
+  },
+  {
+   "ad": "Kıvılcım",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "2 hasar. 1 Yanık."
+  },
+  {
+   "ad": "Ayaz",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Buz",
+   "ikon": "❄️",
+   "aciklama": "5 hasar. 2 Soğuk."
+  },
+  {
+   "ad": "Zehir Dikeni",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "2 hasar. 3 Zehir."
+  },
+  {
+   "ad": "Kıvrak Akım",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Şimşek",
+   "ikon": "⚡",
+   "aciklama": "4 hasar. 1 Yük. 1 kart çek."
+  },
+  {
+   "ad": "Derin Nefes",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "2 kart çek."
+  },
+  {
+   "ad": "Mühürlü Bekleyiş",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "6 blok. Zincirinin yarısı sonraki tura kalır."
+  },
+  {
+   "ad": "Zincir Hançeri",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "3 hasar + zincirdeki her kart için 1."
+  },
+  {
+   "ad": "Ruh Ateşi",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Büyü",
+   "ikon": "✦",
+   "aciklama": "7 hasar + bu tur oynadığın her kart için 1."
+  },
+  {
+   "ad": "Kalkan Koçu",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "Bloğun kadar + 6 hasar."
+  },
+  {
+   "ad": "Kan Paktı",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "4 can öde. 2 enerji. Yanar."
+  },
+  {
+   "ad": "Işık Gözyaşı",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "5 hasar. 3 can. 1 Işık İzi."
+  },
+  {
+   "ad": "Kara Gölge",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Gölge",
+   "ikon": "🌑",
+   "aciklama": "5 hasar. 2 Lanet."
+  },
+  {
+   "ad": "Fırtına Çağrısı",
+   "kahraman": "ortak",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Şimşek",
+   "ikon": "⚡",
+   "aciklama": "3 hasar × 3. Her vuruş 1 Yük."
+  },
+  {
+   "ad": "Son Söz",
+   "kahraman": "ortak",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "Bitirici: zincirdeki her kart için 4 hasar (en az 1)."
+  },
+  {
+   "ad": "Kader Çarkı",
+   "kahraman": "ortak",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Elindeki kartları at, attığın kadar + 1 kart çek."
+  },
+  {
+   "ad": "Ayna Kalkanı",
+   "kahraman": "ortak",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "10 blok. Bu tur bloğunun emdiği hasarın yarısı saldırana döner."
+  },
+  {
+   "ad": "Tutulma",
+   "kahraman": "ortak",
+   "nadirlik": "Kristal",
+   "enerji": 2,
+   "tur": "Gölge",
+   "ikon": "🌑",
+   "aciklama": "8 hasar. Düşmanda Lanet ve Işık İzi varsa ×3."
+  },
+  {
+   "ad": "Dört Mühür",
+   "kahraman": "ortak",
+   "nadirlik": "Kristal",
+   "enerji": 3,
+   "tur": "Büyü",
+   "ikon": "✦",
+   "aciklama": "Tepkimesiz dört mühür: 3 Yanık, 2 Soğuk, 3 Zehir, 2 Yük."
+  },
+  {
+   "ad": "Kül Yağmuru",
+   "kahraman": "ortak",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "Tüm düşmanlara 6 hasar ve 2 Yanık."
+  },
+  {
+   "ad": "Donmuş An",
+   "kahraman": "ortak",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Buz",
+   "ikon": "❄️",
+   "aciklama": "3 Soğuk. Düşman donduysa 2 kart çek, 1 enerji."
+  },
+  {
+   "ad": "Savuruş",
+   "kahraman": "w",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "8 hasar."
+  },
+  {
+   "ad": "Kalkan Duvarı",
+   "kahraman": "w",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "7 blok. 1 Öfke."
+  },
+  {
+   "ad": "Balyoz",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 2,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "10 hasar. Tüm Öfkeni harca: her biri +3."
+  },
+  {
+   "ad": "Meydan Okuma",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "2 Zayıf. 2 Öfke."
+  },
+  {
+   "ad": "Demir Sur",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "12 blok."
+  },
+  {
+   "ad": "Karşı Atak",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "4 hasar + bloğunun yarısı."
+  },
+  {
+   "ad": "Kudurma",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "2 Öfke. Kalıcı: hasar aldığın her turda +1 Öfke."
+  },
+  {
+   "ad": "Yere Ser",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "8 hasar. 2 Sersem. Düşman sersemse ×2."
+  },
+  {
+   "ad": "Kanlı Hiddet",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "2 can öde. 4 Öfke. 1 kart çek."
+  },
+  {
+   "ad": "Kalkan Kırıcı",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "6 hasar. Düşmanın bloğunu yok eder."
+  },
+  {
+   "ad": "Savaş Borusu",
+   "kahraman": "w",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: her tur başında +1 Güç."
+  },
+  {
+   "ad": "Dikenli Zırh",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "7 blok. 3 Diken."
+  },
+  {
+   "ad": "Yıkım Darbesi",
+   "kahraman": "w",
+   "nadirlik": "Altın",
+   "enerji": 3,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "Bitirici: 14 + zincir × 3 + Öfke × 3 hasar. Öfkeyi harcar."
+  },
+  {
+   "ad": "Çifte Balta",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 2,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "6 hasar × 2."
+  },
+  {
+   "ad": "Aslan Yüreği",
+   "kahraman": "w",
+   "nadirlik": "Kristal",
+   "enerji": 3,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: Öfken varken her saldırı +2 hasar."
+  },
+  {
+   "ad": "Kale Siperi",
+   "kahraman": "w",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "10 blok. Bloğun bu tur bitince sıfırlanmaz. Zincirin yarısı kalır."
+  },
+  {
+   "ad": "Hançer",
+   "kahraman": "r",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "7 hasar."
+  },
+  {
+   "ad": "Kaçış",
+   "kahraman": "r",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "4 blok. 1 kart çek."
+  },
+  {
+   "ad": "Hızlı Kesik",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "3 hasar."
+  },
+  {
+   "ad": "Zehirli Uç",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "4 hasar. 3 Zehir."
+  },
+  {
+   "ad": "Gölge Sıçrayışı",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "2 blok. 1 kart çek. 1 Gölge İzi."
+  },
+  {
+   "ad": "Kan Açıcı",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "4 hasar. 3 Kanama."
+  },
+  {
+   "ad": "Bıçak Dansı",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "2 hasar × 4."
+  },
+  {
+   "ad": "Zaaf Bulma",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "2 Zayıf. Sonraki saldırın kesin kritik."
+  },
+  {
+   "ad": "Sis Bombası",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "8 blok. 1 Zayıf."
+  },
+  {
+   "ad": "Ölümcül Hız",
+   "kahraman": "r",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "2 kart çek. Bu tur 0 bedelli kartlar +3 hasar."
+  },
+  {
+   "ad": "Boğaz Kesen",
+   "kahraman": "r",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "Bitirici: 6 + zincir × 3 hasar, kesin kritik."
+  },
+  {
+   "ad": "Kangren",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "Düşmandaki Zehir ve Kanama ikiye katlanır."
+  },
+  {
+   "ad": "Gece Bıçağı",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Gölge",
+   "ikon": "🌑",
+   "aciklama": "3 hasar. 1 Lanet."
+  },
+  {
+   "ad": "Suikast",
+   "kahraman": "r",
+   "nadirlik": "Kristal",
+   "enerji": 3,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "20 hasar, kesin kritik. Düşmanın canı yarının altındaysa ×2."
+  },
+  {
+   "ad": "Gölge Klonu",
+   "kahraman": "r",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: her turun ilk saldırı kartı bir kez daha vurur."
+  },
+  {
+   "ad": "Cep Hilesi",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "+1 enerji. Elindeki rastgele bir kart yanar. Yanar."
+  },
+  {
+   "ad": "Alev Oku",
+   "kahraman": "m",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "5 hasar. 2 Yanık."
+  },
+  {
+   "ad": "Buz Zırhı",
+   "kahraman": "m",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "5 blok. Düşmana 1 Soğuk."
+  },
+  {
+   "ad": "Dondurucu Mızrak",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 2,
+   "tur": "Buz",
+   "ikon": "❄️",
+   "aciklama": "8 hasar. 3 Soğuk."
+  },
+  {
+   "ad": "Şimşek Zinciri",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Şimşek",
+   "ikon": "⚡",
+   "aciklama": "5 hasar. 2 Yük."
+  },
+  {
+   "ad": "Zehir Sisi",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 2,
+   "tur": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "Tüm düşmanlara 4 Zehir."
+  },
+  {
+   "ad": "Mana Akışı",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "1 kart çek. Sonraki element kartın +3 hasar."
+  },
+  {
+   "ad": "Ateş Çemberi",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "4 blok. 4 hasar × 2. 2 Yanık."
+  },
+  {
+   "ad": "Buz Kalesi",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "10 blok + düşmandaki Soğuk × 2 blok."
+  },
+  {
+   "ad": "Yıldırım Düşüşü",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Şimşek",
+   "ikon": "⚡",
+   "aciklama": "12 hasar. Düşmanda 3+ Yük varsa 1 tur Sersem."
+  },
+  {
+   "ad": "Rezonans Taşı",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: her element tepkimesinde 1 kart çek."
+  },
+  {
+   "ad": "Kaos Kıvılcımı",
+   "kahraman": "m",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Büyü",
+   "ikon": "✦",
+   "aciklama": "4 hasar. Rastgele 2 elementten 1'şer yığın."
+  },
+  {
+   "ad": "Kızıl Meteor",
+   "kahraman": "m",
+   "nadirlik": "Altın",
+   "enerji": 3,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "Bitirici: 10 + zincir × 2 + Yanık × 2 hasar."
+  },
+  {
+   "ad": "Mutlak Sıfır",
+   "kahraman": "m",
+   "nadirlik": "Kristal",
+   "enerji": 3,
+   "tur": "Buz",
+   "ikon": "❄️",
+   "aciklama": "5 Soğuk (anında donar). 8 blok."
+  },
+  {
+   "ad": "Element Fırtınası",
+   "kahraman": "m",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Büyü",
+   "ikon": "✦",
+   "aciklama": "Düşmandaki her farklı durum için 5 hasar."
+  },
+  {
+   "ad": "Gizem Patlaması",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Büyü",
+   "ikon": "✦",
+   "aciklama": "4 hasar + bu tur oynadığın her kart için 1."
+  },
+  {
+   "ad": "Simya Damlası",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "2 Zehir. Düşmanda Yanık varsa Zehir ikiye katlanır."
+  },
+  {
+   "ad": "Işık Darbesi",
+   "kahraman": "p",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "5 hasar. 1 Işık İzi."
+  },
+  {
+   "ad": "Dua",
+   "kahraman": "p",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "5 blok. 1 İnanç."
+  },
+  {
+   "ad": "Şifa Eli",
+   "kahraman": "p",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "5 can. 2 İnanç."
+  },
+  {
+   "ad": "Kutsal Çekiç",
+   "kahraman": "p",
+   "nadirlik": "Bronz",
+   "enerji": 2,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "10 hasar + İnanç × 1."
+  },
+  {
+   "ad": "Arınma",
+   "kahraman": "p",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Üzerindeki Zehir, Yanık ve Zayıf silinir. 6 blok."
+  },
+  {
+   "ad": "Adak",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "5 can öde. 3 İnanç. 1 kart çek."
+  },
+  {
+   "ad": "Yargı",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "8 hasar + Işık İzi × 3."
+  },
+  {
+   "ad": "Melek Kanatları",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "13 blok. 3 can."
+  },
+  {
+   "ad": "Kutsal Alev",
+   "kahraman": "p",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "5 hasar. 2 Yanık. 2 can."
+  },
+  {
+   "ad": "Lanet Kırıcı",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "Düşmandaki her Lanet için 4 hasar; Laneti tüketir. Tükettiğin kadar İnanç."
+  },
+  {
+   "ad": "Şehit Yemini",
+   "kahraman": "p",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "8 can öde. 26 hasar."
+  },
+  {
+   "ad": "Mucize",
+   "kahraman": "p",
+   "nadirlik": "Kristal",
+   "enerji": 3,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "15 can, 15 blok, 2 kart çek. Yanar."
+  },
+  {
+   "ad": "İman Kalkanı",
+   "kahraman": "p",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: her tur başında İnanç × 1 blok."
+  },
+  {
+   "ad": "Tövbe",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Gölge",
+   "ikon": "🌑",
+   "aciklama": "4 Lanet. 2 can kaybet."
+  },
+  {
+   "ad": "İlahi Düzen",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "2 kart çek. İnancın 2+ ise 1 enerji."
+  },
+  {
+   "ad": "Gün Doğumu",
+   "kahraman": "p",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "Bitirici: zincir × 3 hasar, zincir × 2 can."
+  },
+  {
+   "ad": "Gözcü Kuzgun",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Düşmanın sonraki 2 niyetini gör. 1 kart çek."
+  },
+  {
+   "ad": "Uyumlu Kılıç",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "7 hasar. Hasar türü düşmanın zayıflığına dönüşür."
+  },
+  {
+   "ad": "Bölücü Darbe",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "5 hasar. Hazırlanan saldırıyı keser (Kıyamet dahil)."
+  },
+  {
+   "ad": "Silah Üçlüsü",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "4 kesici, 4 ezici, 4 delici hasar."
+  },
+  {
+   "ad": "Kor Taşı",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Bu tura Kor ile enerji taşıdıysan 2 kart çek ve 5 blok; yoksa 1 kart çek."
+  },
+  {
+   "ad": "Sabır",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "6 blok. Saklanmış kartsa +6 blok ve 1 enerji."
+  },
+  {
+   "ad": "Pul Sökücü",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "2 hasar. Bu tur Yansıtan Pullar, Kabuk ve Taklitçi sana işlemez."
+  },
+  {
+   "ad": "Oyalama",
+   "kahraman": "ortak",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Düşmanın bu turki özel niyetini (Kıyamet, Pusu, Sayım, Ayna, Yutma, Hazırlık, Güçlenme, İyileşme, Ayırma) bozar; 4 bloka döner."
+  },
+  {
+   "ad": "Arayış",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Destenden bir saldırı ve bir savunma kartı eline al."
+  },
+  {
+   "ad": "Ağır Darbe",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 2,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "12 hasar. Bu tur oynadığın ilk kartsa ×1,5."
+  },
+  {
+   "ad": "Kalkan Döngüsü",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "5 blok. Düşman saldırmaya hazırlanıyorsa +5."
+  },
+  {
+   "ad": "Dikenli Çit",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "6 blok. 3 Diken."
+  },
+  {
+   "ad": "Yıldız Kırığı",
+   "kahraman": "ortak",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Büyü",
+   "ikon": "✦",
+   "aciklama": "6 hasar + bu tur oynadığın her farklı kart türü için 3."
+  },
+  {
+   "ad": "Kan Bedeli",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "3 can öde. Sonraki saldırın kesin kritik. 1 kart çek."
+  },
+  {
+   "ad": "Buz Kapanı",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Buz",
+   "ikon": "❄️",
+   "aciklama": "5 blok. 2 Soğuk (hazırlanan saldırıyı keser). Düşman saldıracaksa Soğuk ×2."
+  },
+  {
+   "ad": "Zehir Tuzağı",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "3 Zehir. Düşman saldıracaksa ×2."
+  },
+  {
+   "ad": "Kıvılcım Seli",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "2 hasar × 3, her vuruş 1 Yanık."
+  },
+  {
+   "ad": "Işık Kalkanı",
+   "kahraman": "ortak",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "6 blok + düşmandaki her Işık İzi için 1."
+  },
+  {
+   "ad": "Gölge Adımı",
+   "kahraman": "ortak",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Gölge",
+   "ikon": "🌑",
+   "aciklama": "3 hasar. 1 Lanet. Saklanmış kartsa 1 enerji."
+  },
+  {
+   "ad": "Son Kale",
+   "kahraman": "ortak",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "10 blok. Canın %30'un altındaysa ×2."
+  },
+  {
+   "ad": "Kader Mührü",
+   "kahraman": "ortak",
+   "nadirlik": "Kristal",
+   "enerji": 2,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Düşmanın sonraki 3 niyetini gör. Bu tur oynadığın sonraki (beceri olmayan) kart iki kez işler."
+  },
+  {
+   "ad": "Alevli Kılıç",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "6 hasar. 1 Yanık; Öfken varsa +2 Yanık."
+  },
+  {
+   "ad": "Gök Çekici",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Şimşek",
+   "ikon": "⚡",
+   "aciklama": "9 hasar. 2 Yük."
+  },
+  {
+   "ad": "Kalkan Fırlatma",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "Bloğunun yarısı kadar hasar (en az 5). Bloğun azalmaz."
+  },
+  {
+   "ad": "Savaş Narası",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "2 Öfke. Düşman saldıracaksa +1 Öfke ve 4 blok."
+  },
+  {
+   "ad": "Sabırlı Nöbet",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "9 blok. Saklanmış kartsa 3 Öfke."
+  },
+  {
+   "ad": "Yarma",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "13 hasar. Kabuk, Pullar ve Taklitçi bu vuruşa işlemez."
+  },
+  {
+   "ad": "Hiddet Patlaması",
+   "kahraman": "w",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "Bitirici: Öfke × 4 + zincir × 2 hasar (Öfkeyi harcar). 1 Sersem."
+  },
+  {
+   "ad": "Çelik Kale",
+   "kahraman": "w",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "8 blok. Bu tur her saldırı kartın 3 blok verir."
+  },
+  {
+   "ad": "Kan Yemini",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "4 can öde. 2 Öfke. Bu tur saldırıların +2 hasar."
+  },
+  {
+   "ad": "Yer Sarsıntısı",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "Tüm düşmanlara 8 hasar. 1 Sersem. Muhafızları dağıtır."
+  },
+  {
+   "ad": "Gözü Kara",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "7 hasar. Canın yarının altındaysa +6."
+  },
+  {
+   "ad": "Sendeletme",
+   "kahraman": "w",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "6 hasar. Hazırlanan saldırıyı keser."
+  },
+  {
+   "ad": "Demir İrade",
+   "kahraman": "w",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: her tur başında 3 blok."
+  },
+  {
+   "ad": "Hücum",
+   "kahraman": "w",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "6 hasar. Turun ilk kartıysa 1 kart çek ve 1 enerji."
+  },
+  {
+   "ad": "Savaş Ustası",
+   "kahraman": "w",
+   "nadirlik": "Kristal",
+   "enerji": 3,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: tur başında Öfken 5+ ise +1 enerji."
+  },
+  {
+   "ad": "Titan Darbesi",
+   "kahraman": "w",
+   "nadirlik": "Kristal",
+   "enerji": 3,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "Bitirici: 18 + zincir × 3 hasar. Önce bloğu ve muhafızları yok eder."
+  },
+  {
+   "ad": "Bıçak Fırlat",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "4 hasar. Saklanmış kartsa ×2."
+  },
+  {
+   "ad": "Gölge Pususu",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Gölge",
+   "ikon": "🌑",
+   "aciklama": "6 hasar. Düşman bu tur saldırmayacaksa ×2."
+  },
+  {
+   "ad": "Kıvılcım Bombası",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "4 hasar. 2 Yanık; Gölge İzin varsa +2."
+  },
+  {
+   "ad": "Şok Teli",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Şimşek",
+   "ikon": "⚡",
+   "aciklama": "3 hasar. 1 Yük. Hazırlanan saldırıyı keser."
+  },
+  {
+   "ad": "Buz Bıçağı",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Buz",
+   "ikon": "❄️",
+   "aciklama": "5 hasar. 1 Soğuk. Gölge İzin varsa 1 kart çek."
+  },
+  {
+   "ad": "İz Sürücü",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Düşmanın sonraki 2 niyetini gör. 1 Gölge İzi."
+  },
+  {
+   "ad": "Kan Ziyafeti",
+   "kahraman": "r",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "Düşmandaki her Kanama için 2 hasar (Kanama tükenmez)."
+  },
+  {
+   "ad": "Zehir Kesesi",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "4 Zehir. Düşmanda Kanama varsa +3."
+  },
+  {
+   "ad": "Arka Kapı",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "6 hasar, kesin kritik. Kabuk, Pullar ve Taklitçi işlemez."
+  },
+  {
+   "ad": "Duman Perdesi",
+   "kahraman": "r",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "7 blok. Düşmanın Pusu, Sayım ya da Ayna niyetini bozar."
+  },
+  {
+   "ad": "Ölüm Valsi",
+   "kahraman": "r",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Kesici",
+   "ikon": "⚔️",
+   "aciklama": "Bitirici: zincirdeki her kart için ayrı 3 hasarlık vuruş."
+  },
+  {
+   "ad": "Ustalık",
+   "kahraman": "r",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: her turun ilk 0 bedelli kartı 1 kart çeker."
+  },
+  {
+   "ad": "Fırsatçı",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "3 hasar. Düşman Zayıf ya da Sersemse +5."
+  },
+  {
+   "ad": "Gölgeye Karış",
+   "kahraman": "r",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "6 blok. Kor ile enerji taşıdıysan +5 blok ve 1 kart."
+  },
+  {
+   "ad": "Zehirli Bulut",
+   "kahraman": "r",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "Tüm düşmanlara 5 Zehir ve 1 Zayıf."
+  },
+  {
+   "ad": "Gece Hükmü",
+   "kahraman": "r",
+   "nadirlik": "Kristal",
+   "enerji": 2,
+   "tur": "Gölge",
+   "ikon": "🌑",
+   "aciklama": "8 hasar + (Lanet + Gölge İzi) × 2."
+  },
+  {
+   "ad": "Kutsal Kıvılcım",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "5 hasar. 2 Işık İzi."
+  },
+  {
+   "ad": "Gölge Mührü",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Gölge",
+   "ikon": "🌑",
+   "aciklama": "4 hasar. 2 Lanet."
+  },
+  {
+   "ad": "Taş Yumruk",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "8 ezici hasar."
+  },
+  {
+   "ad": "Buz Mızrakları",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Buz",
+   "ikon": "❄️",
+   "aciklama": "5 hasar × 2. Her vuruş 1 Soğuk."
+  },
+  {
+   "ad": "Element Okuma",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 0,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Düşmanın sonraki 2 niyetini gör. Sonraki element kartın +3 hasar."
+  },
+  {
+   "ad": "Ateş Duvarı",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "9 blok. Bu tur sana saldıran 3 Yanık alır."
+  },
+  {
+   "ad": "Zincirleme Şimşek",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Şimşek",
+   "ikon": "⚡",
+   "aciklama": "5 hasar + düşmandaki her Yük için 2."
+  },
+  {
+   "ad": "Asit Yağmuru",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "Tüm düşmanlara 4 Zehir. Düşmanın bloğu yarıya iner."
+  },
+  {
+   "ad": "Isı Kırılması",
+   "kahraman": "m",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Büyü",
+   "ikon": "✦",
+   "aciklama": "Düşmanda Yanık ve Soğuk varsa ikisini tüketir: toplam × 4 hasar. Yoksa 8 hasar."
+  },
+  {
+   "ad": "Büyü Kalkanı",
+   "kahraman": "m",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "5 blok + düşmandaki her farklı durum için 2."
+  },
+  {
+   "ad": "Kristal Hapis",
+   "kahraman": "m",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Buz",
+   "ikon": "❄️",
+   "aciklama": "3 Soğuk. Düşman donarsa bir tur daha hamle kaçırır."
+  },
+  {
+   "ad": "Mana Patlaması",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Büyü",
+   "ikon": "✦",
+   "aciklama": "5 hasar. Bu tura Kor ile enerji taşıdıysan ×2."
+  },
+  {
+   "ad": "Element Döngüsü",
+   "kahraman": "m",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: bir turda 3 farklı element kartı oynayınca +1 enerji."
+  },
+  {
+   "ad": "Yanardağ",
+   "kahraman": "m",
+   "nadirlik": "Altın",
+   "enerji": 3,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "Bitirici: zincir × 4 + Yanık × 3 hasar. Yanığı tüketir."
+  },
+  {
+   "ad": "Statik Alan",
+   "kahraman": "m",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Şimşek",
+   "ikon": "⚡",
+   "aciklama": "5 blok. Düşmana 2 Yük (3'te boşalır)."
+  },
+  {
+   "ad": "Arkan Kıyameti",
+   "kahraman": "m",
+   "nadirlik": "Kristal",
+   "enerji": 3,
+   "tur": "Büyü",
+   "ikon": "✦",
+   "aciklama": "10 hasar + düşmandaki tüm durum yığınları × 2. Durumları tüketir."
+  },
+  {
+   "ad": "Kutsal Mızrak",
+   "kahraman": "p",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Delici",
+   "ikon": "🏹",
+   "aciklama": "7 hasar. İnancın 3+ ise kesin kritik."
+  },
+  {
+   "ad": "Arınma Ateşi",
+   "kahraman": "p",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Ateş",
+   "ikon": "🔥",
+   "aciklama": "4 hasar. 2 Yanık. 1 İnanç."
+  },
+  {
+   "ad": "Gökyüzü Hükmü",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Şimşek",
+   "ikon": "⚡",
+   "aciklama": "8 + İnanç hasar. 1 Yük."
+  },
+  {
+   "ad": "Kutsal Su",
+   "kahraman": "p",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Buz",
+   "ikon": "❄️",
+   "aciklama": "4 hasar. 2 Soğuk. 2 can."
+  },
+  {
+   "ad": "Kefaret",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 0,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "5 can öde. 2 İnanç. Sonraki kartın bedeli 0."
+  },
+  {
+   "ad": "Koruyucu Melek",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "10 blok. Bu tur Pusu ve Ayırma sana işlemez."
+  },
+  {
+   "ad": "İtiraf",
+   "kahraman": "p",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Düşmanın sonraki 2 niyetini gör. 2 İnanç."
+  },
+  {
+   "ad": "Hüküm Çekici",
+   "kahraman": "p",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Ezici",
+   "ikon": "🔨",
+   "aciklama": "Bitirici: 10 + İnanç × 3 hasar (İnancı harcar). Hazırlanan saldırıyı keser."
+  },
+  {
+   "ad": "Işık Çemberi",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "Tüm düşmanlara 5 hasar ve 2 Işık İzi."
+  },
+  {
+   "ad": "Çile",
+   "kahraman": "p",
+   "nadirlik": "Gümüş",
+   "enerji": 1,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "3 can öde. Bu tur saldırıların +4 hasar."
+  },
+  {
+   "ad": "Sabır Duası",
+   "kahraman": "p",
+   "nadirlik": "Bronz",
+   "enerji": 1,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "6 blok. Saklanmış kartsa 2 İnanç ve 1 enerji."
+  },
+  {
+   "ad": "Kutsal Zincir",
+   "kahraman": "p",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "9 hasar. Zincirin 4+ ise 1 Sersem ve zincirin yarısı sonraki tura kalır."
+  },
+  {
+   "ad": "Ruh Bağı",
+   "kahraman": "p",
+   "nadirlik": "Altın",
+   "enerji": 1,
+   "tur": "Güç",
+   "ikon": "💠",
+   "aciklama": "Kalıcı: kazandığın her İnanç için 1 blok."
+  },
+  {
+   "ad": "Tanrısal Kalkan",
+   "kahraman": "p",
+   "nadirlik": "Altın",
+   "enerji": 2,
+   "tur": "Savunma",
+   "ikon": "🛡️",
+   "aciklama": "9 blok. Bloğun bu tur bitince sıfırlanmaz."
+  },
+  {
+   "ad": "Kıyamet Duası",
+   "kahraman": "p",
+   "nadirlik": "Kristal",
+   "enerji": 3,
+   "tur": "Kutsal",
+   "ikon": "✨",
+   "aciklama": "12 + Işık İzi × 4 hasar (Işık İzini tüketir). 1 Sersem."
+  },
+  {
+   "ad": "Diriliş",
+   "kahraman": "p",
+   "nadirlik": "Kristal",
+   "enerji": 2,
+   "tur": "Beceri",
+   "ikon": "🎴",
+   "aciklama": "Bu savaşta canın 0'a düşerse 15 canla kalkarsın (bir kez). Yanar."
+  },
+  {
+   "ad": "Kül",
+   "kahraman": "ortak",
+   "nadirlik": "Demir",
+   "enerji": 1,
+   "tur": "Kurban",
+   "ikon": "🩸",
+   "aciklama": "Hiçbir şey yapmaz. Oynayınca yanar. Tur sonunda elindeyse 2 hasar alırsın."
+  }
+ ],
+ "kombolar": [
+  {
+   "ad": "Üçlü Kesik",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Kesici kartı oyna.",
+   "etki": "3 Kanama.",
+   "kahraman": null
+  },
+  {
+   "ad": "Deprem",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Ezici kartı oyna.",
+   "etki": "2 Sersem, düşmanın bloğu dağılır.",
+   "kahraman": null
+  },
+  {
+   "ad": "Delik Deşik",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Delici kartı oyna.",
+   "etki": "2 Zayıf, sonraki saldırı kesin kritik.",
+   "kahraman": null
+  },
+  {
+   "ad": "Gizem Seli",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Büyü kartı oyna.",
+   "etki": "2 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Alev Dalgası",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Ateş kartı oyna.",
+   "etki": "Yanık hemen bir kez işler, +2 Yanık.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kar Fırtınası",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Buz kartı oyna.",
+   "etki": "Düşman anında donar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Salgın",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Zehir kartı oyna.",
+   "etki": "Zehir hemen bir kez işler (azalmaz).",
+   "kahraman": null
+  },
+  {
+   "ad": "Fırtına Gözü",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Şimşek kartı oyna.",
+   "etki": "+3 Yük (boşalma tetiklenebilir).",
+   "kahraman": null
+  },
+  {
+   "ad": "İlahi Koro",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Kutsal kartı oyna.",
+   "etki": "4 can, 2 Işık İzi.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kara Ayin",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Gölge kartı oyna.",
+   "etki": "Lanet ikiye katlanır.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kale Duvarı",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Savunma kartı oyna.",
+   "etki": "Bloğun %50 artar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Akıl Oyunu",
+   "aile": "Seri",
+   "nasil": "Art arda 3 Beceri kartı oyna.",
+   "etki": "+1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kılıç Fırtınası",
+   "aile": "Seri",
+   "nasil": "Art arda 5 Kesici kartı oyna.",
+   "etki": "8 hasar × 3.",
+   "kahraman": null
+  },
+  {
+   "ad": "Gök Gürültüsü",
+   "aile": "Seri",
+   "nasil": "Art arda 5 Şimşek kartı oyna.",
+   "etki": "14 alan hasarı, 3 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Yıkılmaz",
+   "aile": "Seri",
+   "nasil": "Art arda 5 Savunma kartı oyna.",
+   "etki": "Düşmanın bir sonraki saldırısı yarıya iner.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kül Kasırgası",
+   "aile": "Seri",
+   "nasil": "Art arda 5 Ateş kartı oyna.",
+   "etki": "Yanık ikiye katlanır.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kalkan Koçbaşı",
+   "aile": "Sıralı",
+   "nasil": "Savunma → Ezici → Ezici sırasıyla oyna.",
+   "etki": "Bloğun kadar ezici hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Avcı Dizisi",
+   "aile": "Sıralı",
+   "nasil": "Delici → Kesici → Delici sırasıyla oyna.",
+   "etki": "8 delici hasar, sonraki saldırı kesin kritik.",
+   "kahraman": null
+  },
+  {
+   "ad": "Üç Silah",
+   "aile": "Sıralı",
+   "nasil": "Kesici → Delici → Ezici sırasıyla oyna.",
+   "etki": "12 hasar, 1 Sersem, 2 Kanama.",
+   "kahraman": null
+  },
+  {
+   "ad": "Alev Ritüeli",
+   "aile": "Sıralı",
+   "nasil": "Beceri → Büyü → Ateş sırasıyla oyna.",
+   "etki": "4 Yanık, +1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Buz Kırıcı",
+   "aile": "Sıralı",
+   "nasil": "Buz → Şimşek → Ezici sırasıyla oyna.",
+   "etki": "15 hasar; düşman donmuşsa ×2.",
+   "kahraman": null
+  },
+  {
+   "ad": "Gölge Darbesi",
+   "aile": "Sıralı",
+   "nasil": "Gölge → Gölge → Delici sırasıyla oyna.",
+   "etki": "Lanet × 3 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Şifalı Işık",
+   "aile": "Sıralı",
+   "nasil": "Kutsal → Savunma → Kutsal sırasıyla oyna.",
+   "etki": "8 can, 8 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kurban Çemberi",
+   "aile": "Sıralı",
+   "nasil": "Kurban → Kurban → Saldırı sırasıyla oyna.",
+   "etki": "20 kurban hasarı.",
+   "kahraman": null
+  },
+  {
+   "ad": "Zehirli Ok",
+   "aile": "Sıralı",
+   "nasil": "Zehir → Delici sırasıyla oyna.",
+   "etki": "3 Zehir, zehir hemen işler.",
+   "kahraman": null
+  },
+  {
+   "ad": "Termal Şok",
+   "aile": "Sıralı",
+   "nasil": "Ateş → Buz → Ateş sırasıyla oyna.",
+   "etki": "18 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Fırtına Çağrısı",
+   "aile": "Sıralı",
+   "nasil": "Şimşek → Şimşek → Büyü sırasıyla oyna.",
+   "etki": "Yük iki kez boşalır.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kalkan Dansı",
+   "aile": "Sıralı",
+   "nasil": "Savunma → Saldırı → Savunma sırasıyla oyna.",
+   "etki": "6 blok, 6 hasar, 1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Hazırlıklı Son",
+   "aile": "Sıralı",
+   "nasil": "Beceri → Beceri sırasıyla oyna.",
+   "etki": "Zincir +3.",
+   "kahraman": null
+  },
+  {
+   "ad": "Şimşek Hızı",
+   "aile": "Sıralı",
+   "nasil": "0 bedelli → 0 bedelli → 0 bedelli sırasıyla oyna.",
+   "etki": "+1 enerji, 1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Alacakaranlık",
+   "aile": "Sıralı",
+   "nasil": "Kutsal → Gölge sırasıyla oyna.",
+   "etki": "2 Işık İzi, 2 Lanet, 1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Buhar Patlaması",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Soğuk varken Yanık uygula.",
+   "etki": "Soğuğu tüketir: 3 + Soğuk × 3 hasar, 1 Zayıf.",
+   "kahraman": null
+  },
+  {
+   "ad": "Erime",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Yanık varken Soğuk uygula.",
+   "etki": "Yanığı tüketir: Yanık × 2 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Zehir Alevi",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Zehir varken Yanık uygula.",
+   "etki": "Zehrin yarısı hemen hasar olur (zehir azalmaz), +2 Yanık.",
+   "kahraman": null
+  },
+  {
+   "ad": "Asit Arkı",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Zehir varken Yük uygula.",
+   "etki": "Zehir %50 artar, 3 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Aşırı Yük",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Yanık varken Yük uygula.",
+   "etki": "Yükü tüketir: 6 + Yük × 3 hasar, 1 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Buz Kırığı",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Soğuk varken Yük uygula.",
+   "etki": "Soğuğu tüketir: Soğuk × 5 hasar (donmuşsa ×2).",
+   "kahraman": null
+  },
+  {
+   "ad": "Kara Yara",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Kanama varken Zehir uygula.",
+   "etki": "Kanama ikiye katlanır, +2 Zehir.",
+   "kahraman": null
+  },
+  {
+   "ad": "Dağlama",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Kanama varken Yanık uygula.",
+   "etki": "Kanamayı tüketir: Kanama × 2 hasar, o kadar Yanık.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kızıl Buz",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Kanama varken Soğuk uygula.",
+   "etki": "Düşman iyileşemez, +2 Soğuk.",
+   "kahraman": null
+  },
+  {
+   "ad": "Tutulma",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Işık İzi varken Lanet uygula.",
+   "etki": "Işık İzi ve Laneti tüketir: (ikisinin toplamı) × 5 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Arınma Işığı",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Lanet varken Işık İzi uygula.",
+   "etki": "Laneti tüketir: Lanet × 3 hasar, Lanet × 2 can.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kara Çürüme",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Lanet varken Zehir uygula.",
+   "etki": "Zehir 2 tur azalmaz, +2 Zehir.",
+   "kahraman": null
+  },
+  {
+   "ad": "Yargı Şimşeği",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Işık İzi varken Yük uygula.",
+   "etki": "8 hasar, 1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Arı Alev",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Işık İzi varken Yanık uygula.",
+   "etki": "4 can, +2 Yanık.",
+   "kahraman": null
+  },
+  {
+   "ad": "Statik Buz",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Yük varken Soğuk uygula.",
+   "etki": "Yükü tüketir: düşman donar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Donmuş Zehir",
+   "aile": "Element Tepkimesi",
+   "nasil": "Düşmanda Zehir varken Soğuk uygula.",
+   "etki": "Zehir hemen iki kez işler.",
+   "kahraman": null
+  },
+  {
+   "ad": "Bin Yara",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda aynı anda Zehir, Yanık ve Kanama olsun.",
+   "etki": "Zehir, Yanık ve Kanama hemen bir kez işler.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kara Hüküm",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 3+ Lanet ve Zayıf olsun.",
+   "etki": "12 gölge hasarı.",
+   "kahraman": null
+  },
+  {
+   "ad": "Element Kasırgası",
+   "aile": "Durum Birleşimi",
+   "nasil": "Bir turda düşmana 4 farklı element durumu uygula.",
+   "etki": "15 büyü hasarı, +1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kilitli Ceset",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşman donmuşken 2+ Sersem uygula.",
+   "etki": "Düşman bir hamle daha kaçırır (savaşta bir kez).",
+   "kahraman": null
+  },
+  {
+   "ad": "Ölüm Fermanı",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanın canı %25 altındayken 2+ Lanet olsun.",
+   "etki": "15 hasar (savaşta bir kez).",
+   "kahraman": null
+  },
+  {
+   "ad": "Yaralı Av",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 5+ Kanama ve Zayıf olsun.",
+   "etki": "Kanama ikiye katlanır.",
+   "kahraman": null
+  },
+  {
+   "ad": "Işık Hapsi",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 5+ Işık İzi biriktir.",
+   "etki": "Işık İzi tüketilir: 10 kutsal hasar, 1 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Zehir Denizi",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 15+ Zehir biriktir.",
+   "etki": "Zehir hemen işler (azalmaz).",
+   "kahraman": null
+  },
+  {
+   "ad": "Çift",
+   "aile": "El Kalıbı",
+   "nasil": "Aynı kartı bir turda iki kez oyna.",
+   "etki": "1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Üçlü",
+   "aile": "El Kalıbı",
+   "nasil": "Aynı kartı bir turda üç kez oyna.",
+   "etki": "10 hasar, +1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Seri",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda 0, 1, 2 ve 3 bedelli kart oyna.",
+   "etki": "15 hasar, +1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Renk",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda aynı türden 4 kart oyna.",
+   "etki": "Bu türün 3'lü seri bonusu bir kez daha.",
+   "kahraman": null
+  },
+  {
+   "ad": "Dolu Ev",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda bir türden 3, başka türden 2 kart oyna.",
+   "etki": "2 kart çek, +1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Dört Element",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda 4 farklı element türü oyna.",
+   "etki": "Rezonans + 10 büyü hasarı.",
+   "kahraman": null
+  },
+  {
+   "ad": "Boş El",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda en az 4 kart oynayıp elini boşalt.",
+   "etki": "2 kart çek (ikinci nefes).",
+   "kahraman": null
+  },
+  {
+   "ad": "Beş Renk",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda 5 farklı tür oyna.",
+   "etki": "+1 enerji, 2 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kusursuz Son",
+   "aile": "Bitirici",
+   "nasil": "Zincir 5+ iken bitirici oyna.",
+   "etki": "10 ek hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kıyamet Saati",
+   "aile": "Bitirici",
+   "nasil": "Zincir 8+ iken bitirici oyna.",
+   "etki": "25 ek hasar, 2 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Efsanevi Son",
+   "aile": "Bitirici",
+   "nasil": "Zincir 12+ iken bitirici oyna.",
+   "etki": "50 ek hasar, düşmanın bloğu ve muhafızları yok olur.",
+   "kahraman": null
+  },
+  {
+   "ad": "Tam Tur",
+   "aile": "Deste Döngüsü",
+   "nasil": "Tur içinde desteni bitirip yeniden karıştır.",
+   "etki": "+1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Ağır El",
+   "aile": "Deste Döngüsü",
+   "nasil": "Elinde 10 kart biriksin.",
+   "etki": "Rastgele bir kart yanar, +2 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Tek Hamle",
+   "aile": "Deste Döngüsü",
+   "nasil": "Bir turda yalnızca tek bir 3+ bedelli kart oyna ve turu bitir.",
+   "etki": "Sonraki tur +2 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Yanan Deste",
+   "aile": "Deste Döngüsü",
+   "nasil": "Bir savaşta 3 kart yak.",
+   "etki": "15 ateş alan hasarı (savaşta bir kez).",
+   "kahraman": null
+  },
+  {
+   "ad": "Öfke Patlaması",
+   "aile": "Kahramana Özel",
+   "nasil": "Savaşçı: 8+ Öfke ile Ezici kart oyna.",
+   "etki": "8 Öfke harcanır: +15 ezici hasar.",
+   "kahraman": "w"
+  },
+  {
+   "ad": "Duvar ve Çekiç",
+   "aile": "Kahramana Özel",
+   "nasil": "Savaşçı: Savunma → Savunma → Ezici, bloğun 20+.",
+   "etki": "Bloğun kadar ek hasar.",
+   "kahraman": "w"
+  },
+  {
+   "ad": "Son Direniş",
+   "aile": "Kahramana Özel",
+   "nasil": "Savaşçı: canın %30 altındayken saldırı oyna.",
+   "etki": "Bu tur saldırıların ×2 (savaşta bir kez).",
+   "kahraman": "w"
+  },
+  {
+   "ad": "Ölüm Dansı",
+   "aile": "Kahramana Özel",
+   "nasil": "Suikastçı: 5 Gölge İzi biriktir.",
+   "etki": "5 Gölge İzi harcanır: 6 hasar × 3.",
+   "kahraman": "r"
+  },
+  {
+   "ad": "Zehirli Kan",
+   "aile": "Kahramana Özel",
+   "nasil": "Suikastçı: düşmanda 5+ Zehir ve 5+ Kanama.",
+   "etki": "Zehir ve Kanama hemen işler.",
+   "kahraman": "r"
+  },
+  {
+   "ad": "Sessiz Son",
+   "aile": "Kahramana Özel",
+   "nasil": "Suikastçı: zincir 6+ iken bitirici.",
+   "etki": "Bitirici hasarı ikiye katlanır.",
+   "kahraman": "r"
+  },
+  {
+   "ad": "Rezonans",
+   "aile": "Kahramana Özel",
+   "nasil": "Büyücü: bir turda 3 farklı element oyna.",
+   "etki": "Sonraki tepkime ×2.",
+   "kahraman": "m"
+  },
+  {
+   "ad": "Element Ustalığı",
+   "aile": "Kahramana Özel",
+   "nasil": "Büyücü: bir turda 2 tepkime.",
+   "etki": "1 kart çek, 4 blok.",
+   "kahraman": "m"
+  },
+  {
+   "ad": "Kaos Çekirdeği",
+   "aile": "Kahramana Özel",
+   "nasil": "Büyücü: bir turda 3 tepkime.",
+   "etki": "18 büyü hasarı.",
+   "kahraman": "m"
+  },
+  {
+   "ad": "İnanç Mucizesi",
+   "aile": "Kahramana Özel",
+   "nasil": "Ruhban: 6 İnanç biriktir.",
+   "etki": "6 İnanç harcanır: sonraki kartın bedeli 0.",
+   "kahraman": "p"
+  },
+  {
+   "ad": "Şehit Ruhu",
+   "aile": "Kahramana Özel",
+   "nasil": "Ruhban: canın yarının altındayken Kurban kartı.",
+   "etki": "İnanç ikiye katlanır, 8 blok.",
+   "kahraman": "p"
+  },
+  {
+   "ad": "Kutsal Üçleme",
+   "aile": "Kahramana Özel",
+   "nasil": "Ruhban: 4+ İnançla bir turda 3 Kutsal kart.",
+   "etki": "12 kutsal alan hasarı.",
+   "kahraman": "p"
+  },
+  {
+   "ad": "Kalkan Sırtı",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: yoldaşın bu tur Savunma oynadıysa bir saldırı oyna.",
+   "etki": "6 ezici hasar, 4 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Çapraz Ateş",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: yoldaşınla aynı turda farklı türde saldırılar oynayın.",
+   "etki": "8 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Element Köprüsü",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: yoldaşın oynadığından farklı bir element kartı oyna.",
+   "etki": "1 kart çek, +1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kutsal Bağ",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: yoldaşın Kutsal kart oynadıysa sen Kutsal ya da Savunma oyna.",
+   "etki": "6 can, 2 Işık İzi.",
+   "kahraman": null
+  },
+  {
+   "ad": "Gölge Perdesi",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: yoldaşın Gölge ya da Delici oynadıysa 0 bedelli bir kart oyna.",
+   "etki": "2 Kanama, 1 Zayıf.",
+   "kahraman": null
+  },
+  {
+   "ad": "Ortak Hüküm",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: yoldaşın bu tur 3+ kart oynadıysa bir Bitirici oyna.",
+   "etki": "14 saf hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kan Kardeşliği",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: ikiniz de aynı turda Kurban kartı oynayın.",
+   "etki": "10 blok, +1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Tam Ekip",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: bu tur ikinizin oynadığı kart sayısı 8 olsun.",
+   "etki": "2 kart çek, 6 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kır ve Biç",
+   "aile": "Silah İkilisi",
+   "nasil": "Kesici → Ezici art arda oyna.",
+   "etki": "1 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Sarsıp Kes",
+   "aile": "Silah İkilisi",
+   "nasil": "Ezici → Kesici art arda oyna.",
+   "etki": "3 Kanama.",
+   "kahraman": null
+  },
+  {
+   "ad": "Çivi ve Çekiç",
+   "aile": "Silah İkilisi",
+   "nasil": "Delici → Ezici art arda oyna.",
+   "etki": "Düşmanın bloğu yok olur.",
+   "kahraman": null
+  },
+  {
+   "ad": "Açık Yara",
+   "aile": "Silah İkilisi",
+   "nasil": "Kesici → Delici art arda oyna.",
+   "etki": "2 Zayıf.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kızgın Demir",
+   "aile": "Silah İkilisi",
+   "nasil": "Ateş → Kesici art arda oyna.",
+   "etki": "4 hasar, 2 Kanama.",
+   "kahraman": null
+  },
+  {
+   "ad": "Buzu Kır",
+   "aile": "Silah İkilisi",
+   "nasil": "Buz → Ezici art arda oyna.",
+   "etki": "Soğuğu tüketir: Soğuk × 4 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "İletken Ok",
+   "aile": "Silah İkilisi",
+   "nasil": "Şimşek → Delici art arda oyna.",
+   "etki": "Yük hemen boşalır.",
+   "kahraman": null
+  },
+  {
+   "ad": "Zehirli Kesik",
+   "aile": "Silah İkilisi",
+   "nasil": "Zehir → Kesici art arda oyna.",
+   "etki": "Zehir ×1,5.",
+   "kahraman": null
+  },
+  {
+   "ad": "Karanlıktan Vuruş",
+   "aile": "Silah İkilisi",
+   "nasil": "Gölge → Delici art arda oyna.",
+   "etki": "Sonraki saldırın kesin kritik. 1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "İlahi Çekiç",
+   "aile": "Silah İkilisi",
+   "nasil": "Kutsal → Ezici art arda oyna.",
+   "etki": "6 can.",
+   "kahraman": null
+  },
+  {
+   "ad": "Büyülü Alev",
+   "aile": "Silah İkilisi",
+   "nasil": "Büyü → Ateş art arda oyna.",
+   "etki": "+1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Donduran Darbe",
+   "aile": "Silah İkilisi",
+   "nasil": "Ezici → Buz art arda oyna.",
+   "etki": "3 Soğuk.",
+   "kahraman": null
+  },
+  {
+   "ad": "Zehir Saplama",
+   "aile": "Silah İkilisi",
+   "nasil": "Delici → Zehir art arda oyna.",
+   "etki": "4 Zehir.",
+   "kahraman": null
+  },
+  {
+   "ad": "Alev Kesik",
+   "aile": "Silah İkilisi",
+   "nasil": "Kesici → Ateş art arda oyna.",
+   "etki": "3 Yanık.",
+   "kahraman": null
+  },
+  {
+   "ad": "Gök Gürlemesi",
+   "aile": "Silah İkilisi",
+   "nasil": "Şimşek → Ezici art arda oyna.",
+   "etki": "8 alan hasarı (muhafızları dağıtır).",
+   "kahraman": null
+  },
+  {
+   "ad": "Şafak",
+   "aile": "Silah İkilisi",
+   "nasil": "Gölge → Kutsal art arda oyna.",
+   "etki": "4 can, 4 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kutsal Kılıç",
+   "aile": "Silah İkilisi",
+   "nasil": "Kutsal → Kesici art arda oyna.",
+   "etki": "8 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Simya Patlaması",
+   "aile": "Silah İkilisi",
+   "nasil": "Zehir → Büyü art arda oyna.",
+   "etki": "Zehir kadar hasar (Zehir kalır).",
+   "kahraman": null
+  },
+  {
+   "ad": "Gölge Kılıcı",
+   "aile": "Silah İkilisi",
+   "nasil": "Gölge → Kesici art arda oyna.",
+   "etki": "2 Lanet.",
+   "kahraman": null
+  },
+  {
+   "ad": "Işık Oku",
+   "aile": "Silah İkilisi",
+   "nasil": "Delici → Kutsal art arda oyna.",
+   "etki": "2 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Zayıf Nokta",
+   "aile": "Strateji",
+   "nasil": "Bir turda düşmanın zayıflığına 3 kez vur.",
+   "etki": "2 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kesinti Ustası",
+   "aile": "Strateji",
+   "nasil": "Kıyamet hazırlayan düşmanı bu tur kes (yeterli hasar ya da Sersem/Soğuk).",
+   "etki": "10 hasar, +1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Saklı Hazine",
+   "aile": "Strateji",
+   "nasil": "Sakladığın 2+ bedelli kartı oyna.",
+   "etki": "+1 enerji, 1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kor Ateşi",
+   "aile": "Strateji",
+   "nasil": "Kor ile enerji taşıdığın turda 3 kart oyna.",
+   "etki": "6 alan hasarı, 1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Gözcünün Hükmü",
+   "aile": "Strateji",
+   "nasil": "Niyetleri gözetlediğin turda saldır.",
+   "etki": "8 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kabuk Söküm",
+   "aile": "Strateji",
+   "nasil": "Düşmanın 10+ bloğunu tek vuruşta sıfırla.",
+   "etki": "2 Zayıf, 6 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Tür Ustası",
+   "aile": "Strateji",
+   "nasil": "Bir turda 4 farklı saldırı türü oyna.",
+   "etki": "+1 enerji, 2 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Tek Atış",
+   "aile": "Strateji",
+   "nasil": "Turun ilk kartıyla 20+ hasar ver.",
+   "etki": "1 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Pusu Bozan",
+   "aile": "Strateji",
+   "nasil": "Pusu varken önce 2 saldırı dışı kart oyna.",
+   "etki": "Düşmanın Pusu niyeti bozulur.",
+   "kahraman": null
+  },
+  {
+   "ad": "Ayna Kırığı",
+   "aile": "Strateji",
+   "nasil": "Ayna Duruşu varken Savunma kartı oyna.",
+   "etki": "Ayna bozulur, 6 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Hesap Hatası",
+   "aile": "Strateji",
+   "nasil": "Sayım varken turu 3+ bedelli bir kartla aç.",
+   "etki": "Sayım bozulur.",
+   "kahraman": null
+  },
+  {
+   "ad": "Büyü Kesici",
+   "aile": "Strateji",
+   "nasil": "Büyü Yutma varken turu saldırıyla aç.",
+   "etki": "Büyü Yutma bozulur, 2 Lanet.",
+   "kahraman": null
+  },
+  {
+   "ad": "Silah Değişimi",
+   "aile": "Strateji",
+   "nasil": "Art arda 3 saldırıyı 3 farklı türle oyna.",
+   "etki": "6 hasar, 1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Tam Savunma",
+   "aile": "Strateji",
+   "nasil": "Düşmanın gelen saldırısı kadar blok kur.",
+   "etki": "Sonraki tur +1 enerji, 3 Diken.",
+   "kahraman": null
+  },
+  {
+   "ad": "Tasarruf",
+   "aile": "Strateji",
+   "nasil": "Kor ile enerji taşıdığın turda 3+ bedelli kart oyna.",
+   "etki": "6 blok, 1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Önsezi",
+   "aile": "Strateji",
+   "nasil": "Niyetleri gözetlediğin turda, düşman saldıracakken Savunma oyna.",
+   "etki": "8 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Çaresiz",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda Sersem ve Zayıf olsun.",
+   "etki": "2 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kanlı Lanet",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 2+ Lanet ve 2+ Kanama olsun.",
+   "etki": "Kanama ×2.",
+   "kahraman": null
+  },
+  {
+   "ad": "Işıklı Yara",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 2+ Işık İzi ve 2+ Kanama olsun.",
+   "etki": "6 kutsal hasar, 4 can.",
+   "kahraman": null
+  },
+  {
+   "ad": "Ateşli Zayıflık",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 4+ Yanık ve Zayıf olsun.",
+   "etki": "Yanık ×1,5.",
+   "kahraman": null
+  },
+  {
+   "ad": "Gerilim",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 2+ Yük ve Zayıf olsun.",
+   "etki": "Yük boşalır.",
+   "kahraman": null
+  },
+  {
+   "ad": "Dört Yara",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda aynı anda 4 farklı durum olsun.",
+   "etki": "10 alan hasarı.",
+   "kahraman": null
+  },
+  {
+   "ad": "Felaket",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda aynı anda 6 farklı durum olsun.",
+   "etki": "25 hasar (savaşta bir kez).",
+   "kahraman": null
+  },
+  {
+   "ad": "Lanet Fırtınası",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 5+ Lanet biriktir.",
+   "etki": "Laneti tüketir: Lanet × 6 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kan Gölü",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 10+ Kanama biriktir.",
+   "etki": "Kanama hemen ikişer kez işler.",
+   "kahraman": null
+  },
+  {
+   "ad": "Cehennem",
+   "aile": "Durum Birleşimi",
+   "nasil": "Düşmanda 10+ Yanık biriktir.",
+   "etki": "2 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Öfke Seli",
+   "aile": "Kahramana Özel",
+   "nasil": "Savaşçı: 12 Öfke biriktir.",
+   "etki": "+3 Güç (savaşta bir kez).",
+   "kahraman": "w"
+  },
+  {
+   "ad": "Kalkanla Hücum",
+   "aile": "Kahramana Özel",
+   "nasil": "Savaşçı: Savunma → Ezici → Kesici.",
+   "etki": "10 blok.",
+   "kahraman": "w"
+  },
+  {
+   "ad": "Durdurulamaz",
+   "aile": "Kahramana Özel",
+   "nasil": "Savaşçı: Kıyameti bir Ezici kartla kes.",
+   "etki": "3 Öfke, 8 hasar.",
+   "kahraman": "w"
+  },
+  {
+   "ad": "Demir Disiplin",
+   "aile": "Kahramana Özel",
+   "nasil": "Savaşçı: 30+ blok kur.",
+   "etki": "2 kart çek.",
+   "kahraman": "w"
+  },
+  {
+   "ad": "Gölge Ordusu",
+   "aile": "Kahramana Özel",
+   "nasil": "Suikastçı: zincir 8+ iken Gölge kartı oyna.",
+   "etki": "12 gölge hasarı, 2 Lanet.",
+   "kahraman": "r"
+  },
+  {
+   "ad": "Hız Ustası",
+   "aile": "Kahramana Özel",
+   "nasil": "Suikastçı: bir turda 4 tane 0 bedelli kart oyna.",
+   "etki": "+2 enerji.",
+   "kahraman": "r"
+  },
+  {
+   "ad": "Kritik Fırtına",
+   "aile": "Kahramana Özel",
+   "nasil": "Suikastçı: bir turda 3 kritik vuruş.",
+   "etki": "6 Kanama.",
+   "kahraman": "r"
+  },
+  {
+   "ad": "Kör Nokta",
+   "aile": "Kahramana Özel",
+   "nasil": "Suikastçı: zayıf olduğu türden bir Delici/Gölge vuruşu.",
+   "etki": "Sonraki saldırın kesin kritik, 1 kart çek.",
+   "kahraman": "r"
+  },
+  {
+   "ad": "Fırtınanın Kalbi",
+   "aile": "Kahramana Özel",
+   "nasil": "Büyücü: bir turda 4 tepkime.",
+   "etki": "3 kart çek.",
+   "kahraman": "m"
+  },
+  {
+   "ad": "Denge",
+   "aile": "Kahramana Özel",
+   "nasil": "Büyücü: aynı turda Kutsal ve Gölge kart oyna.",
+   "etki": "Rezonans, 6 blok.",
+   "kahraman": "m"
+  },
+  {
+   "ad": "Element Kalkanı",
+   "aile": "Kahramana Özel",
+   "nasil": "Büyücü: düşmanda aynı anda 3 farklı element durumu olsun.",
+   "etki": "12 blok.",
+   "kahraman": "m"
+  },
+  {
+   "ad": "Buz Prensi",
+   "aile": "Kahramana Özel",
+   "nasil": "Büyücü: bu tur düşmanı dondur.",
+   "etki": "Sonraki tur +2 enerji.",
+   "kahraman": "m"
+  },
+  {
+   "ad": "Aziz",
+   "aile": "Kahramana Özel",
+   "nasil": "Ruhban: canın %30 altındayken 3+ İnançla Kutsal kart oyna.",
+   "etki": "20 can (savaşta bir kez).",
+   "kahraman": "p"
+  },
+  {
+   "ad": "Çifte Kurban",
+   "aile": "Kahramana Özel",
+   "nasil": "Ruhban: bir turda 2 Kurban kartı oyna.",
+   "etki": "+4 İnanç.",
+   "kahraman": "p"
+  },
+  {
+   "ad": "Kutsal Duvar",
+   "aile": "Kahramana Özel",
+   "nasil": "Ruhban: 3+ İnançla 20+ blok kur.",
+   "etki": "8 kutsal hasar.",
+   "kahraman": "p"
+  },
+  {
+   "ad": "Lütuf",
+   "aile": "Kahramana Özel",
+   "nasil": "Ruhban: 2+ bedelli bir kartı bedavaya oyna.",
+   "etki": "1 kart çek, 2 İnanç.",
+   "kahraman": "p"
+  },
+  {
+   "ad": "Kale Kapısı",
+   "aile": "Sıralı",
+   "nasil": "Savunma → Savunma → Bitirici sırasıyla oyna.",
+   "etki": "Bloğunun yarısı kadar ek hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Hile Döngüsü",
+   "aile": "Sıralı",
+   "nasil": "Beceri → Saldırı → Beceri sırasıyla oyna.",
+   "etki": "+1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kanlı Kalkan",
+   "aile": "Sıralı",
+   "nasil": "Kurban → Savunma sırasıyla oyna.",
+   "etki": "10 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Buz Kıran Çekiç",
+   "aile": "Sıralı",
+   "nasil": "Buz → Buz → Ezici sırasıyla oyna.",
+   "etki": "12 ezici hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Çürüyen Gölge",
+   "aile": "Sıralı",
+   "nasil": "Zehir → Zehir → Gölge sırasıyla oyna.",
+   "etki": "+6 Zehir.",
+   "kahraman": null
+  },
+  {
+   "ad": "Mihrap",
+   "aile": "Sıralı",
+   "nasil": "Kutsal → Kutsal → Savunma sırasıyla oyna.",
+   "etki": "10 blok, 2 can.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kutup Fırtınası",
+   "aile": "Sıralı",
+   "nasil": "Şimşek → Buz → Şimşek sırasıyla oyna.",
+   "etki": "2 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Lav Çekici",
+   "aile": "Sıralı",
+   "nasil": "Ateş → Ateş → Ezici sırasıyla oyna.",
+   "etki": "Yanık × 2 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Sinsi Plan",
+   "aile": "Sıralı",
+   "nasil": "Gölge → Beceri → Gölge sırasıyla oyna.",
+   "etki": "2 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Taktik",
+   "aile": "Sıralı",
+   "nasil": "Savunma → Beceri → Saldırı sırasıyla oyna.",
+   "etki": "Sonraki kartın bedeli 0.",
+   "kahraman": null
+  },
+  {
+   "ad": "Ok Yağmuru",
+   "aile": "Seri",
+   "nasil": "Art arda 4 Delici kartı oyna.",
+   "etki": "Sonraki 2 saldırın kesin kritik.",
+   "kahraman": null
+  },
+  {
+   "ad": "Toprak Yarığı",
+   "aile": "Seri",
+   "nasil": "Art arda 4 Ezici kartı oyna.",
+   "etki": "3 Sersem.",
+   "kahraman": null
+  },
+  {
+   "ad": "Arkan Seli",
+   "aile": "Seri",
+   "nasil": "Art arda 4 Büyü kartı oyna.",
+   "etki": "+2 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Buzul Çağı",
+   "aile": "Seri",
+   "nasil": "Art arda 4 Buz kartı oyna.",
+   "etki": "Düşman donar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Veba",
+   "aile": "Seri",
+   "nasil": "Art arda 4 Zehir kartı oyna.",
+   "etki": "Zehir ×2.",
+   "kahraman": null
+  },
+  {
+   "ad": "Karanlık Çöküş",
+   "aile": "Seri",
+   "nasil": "Art arda 4 Gölge kartı oyna.",
+   "etki": "4 Lanet, 2 Zayıf.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kutsal Hac",
+   "aile": "Seri",
+   "nasil": "Art arda 4 Kutsal kartı oyna.",
+   "etki": "15 can.",
+   "kahraman": null
+  },
+  {
+   "ad": "Kılıç Ustası",
+   "aile": "Seri",
+   "nasil": "Art arda 4 Kesici kartı oyna.",
+   "etki": "8 Kanama.",
+   "kahraman": null
+  },
+  {
+   "ad": "İki Çift",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda iki farklı kartı ikişer kez oyna.",
+   "etki": "2 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Ters Seri",
+   "aile": "El Kalıbı",
+   "nasil": "Art arda 3, 2, 1, 0 bedelli kartlar oyna.",
+   "etki": "Sonraki tur +2 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Eş Bedel",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda aynı bedelli 4 kart oyna.",
+   "etki": "8 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Altılı",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda 6 kart oyna.",
+   "etki": "6 alan hasarı.",
+   "kahraman": null
+  },
+  {
+   "ad": "Yedili",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda 7 kart oyna.",
+   "etki": "1 Sersem, +1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Karışık El",
+   "aile": "El Kalıbı",
+   "nasil": "Bir turda 2 ortak ve 2 kahraman kartı oyna.",
+   "etki": "1 kart çek.",
+   "kahraman": null
+  },
+  {
+   "ad": "Tek Nefes",
+   "aile": "Bitirici",
+   "nasil": "Zincir tam 3 iken bitirici oyna.",
+   "etki": "Sonraki saldırın kesin kritik; zincirin yarısı kalır.",
+   "kahraman": null
+  },
+  {
+   "ad": "Çifte Son",
+   "aile": "Bitirici",
+   "nasil": "Bir turda 2 bitirici oyna.",
+   "etki": "15 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Savunmalı Son",
+   "aile": "Bitirici",
+   "nasil": "15+ blokla bitirici oyna.",
+   "etki": "10 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Elementsel Son",
+   "aile": "Bitirici",
+   "nasil": "Element türünde bir bitirici oyna.",
+   "etki": "Bitiricinin elementinden 4 yığın.",
+   "kahraman": null
+  },
+  {
+   "ad": "Hızlı Döngü",
+   "aile": "Deste Döngüsü",
+   "nasil": "Bir turda kart etkileriyle 5 kart çek.",
+   "etki": "+1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Yakma Ustası",
+   "aile": "Deste Döngüsü",
+   "nasil": "Bir turda 2 kart yak.",
+   "etki": "8 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "İkiz Element",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: yoldaşınla aynı element türünü oynayın.",
+   "etki": "8 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Koruyucu Kanat",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: ikiniz de aynı turda Savunma oynayın.",
+   "etki": "8 blok.",
+   "kahraman": null
+  },
+  {
+   "ad": "Dikkat Dağıt",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: yoldaşın 2+ saldırı oynadıysa sen Savunma oyna.",
+   "etki": "6 blok, 2 Diken.",
+   "kahraman": null
+  },
+  {
+   "ad": "Ekip Ritmi",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: ikiniz de 0 bedelli kart oynayın.",
+   "etki": "+1 enerji.",
+   "kahraman": null
+  },
+  {
+   "ad": "Büyük Final",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: ikiniz de aynı turda bitirici oynayın.",
+   "etki": "20 hasar.",
+   "kahraman": null
+  },
+  {
+   "ad": "Şifa Zinciri",
+   "aile": "Takım (Co-op)",
+   "nasil": "Co-op: yoldaşın Kutsal oynadıysa sen Kurban oyna.",
+   "etki": "8 can.",
+   "kahraman": null
+  }
+ ],
+ "canavarlar": [
+  {
+   "ad": "Kül Faresi",
+   "ikon": "🐀",
+   "sinif": "1. Bölge · Sıradan",
+   "can": 22,
+   "zayif": [
+    "Kesici"
+   ],
+   "direncli": [
+    "Zehir"
+   ],
+   "ozellik": [],
+   "fazli": false
+  },
+  {
+   "ad": "Kemik Bekçi",
+   "ikon": "💀",
+   "sinif": "1. Bölge · Sıradan",
+   "can": 30,
+   "zayif": [
+    "Ezici"
+   ],
+   "direncli": [
+    "Delici"
+   ],
+   "ozellik": [
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Kabuklu: Bloğunu yalnız Ezici tam kırar; diğer vuruşlar bloğa yarım işler."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Gölge Kurt",
+   "ikon": "🐺",
+   "sinif": "1. Bölge · Sıradan",
+   "can": 32,
+   "zayif": [
+    "Ateş"
+   ],
+   "direncli": [
+    "Gölge"
+   ],
+   "ozellik": [],
+   "fazli": false
+  },
+  {
+   "ad": "Zehirli Semender",
+   "ikon": "🦎",
+   "sinif": "1. Bölge · Sıradan",
+   "can": 28,
+   "zayif": [
+    "Buz"
+   ],
+   "direncli": [
+    "Zehir"
+   ],
+   "ozellik": [
+    "Zehre Bağışık: Zehir yarıya iner."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kül Engereği",
+   "ikon": "🐍",
+   "sinif": "1. Bölge · Sıradan",
+   "can": 26,
+   "zayif": [
+    "Ezici"
+   ],
+   "direncli": [
+    "Şimşek"
+   ],
+   "ozellik": [],
+   "fazli": false
+  },
+  {
+   "ad": "Zehirli Mantar",
+   "ikon": "🍄",
+   "sinif": "1. Bölge · Sıradan",
+   "can": 32,
+   "zayif": [
+    "Ateş"
+   ],
+   "direncli": [
+    "Gölge"
+   ],
+   "ozellik": [
+    "Yenilenen: Her tur 3 can yeniler.",
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kül Canavarı",
+   "ikon": "🐗",
+   "sinif": "1. Bölge · Sıradan",
+   "can": 36,
+   "zayif": [
+    "Delici"
+   ],
+   "direncli": [
+    "Ateş"
+   ],
+   "ozellik": [
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez)."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kül Yengeci",
+   "ikon": "🦀",
+   "sinif": "1. Bölge · Sıradan",
+   "can": 34,
+   "zayif": [
+    "Şimşek"
+   ],
+   "direncli": [
+    "Kesici"
+   ],
+   "ozellik": [
+    "Dikenli: Ona vuran her saldırı 2 hasar geri alır.",
+    "Kabuklu: Bloğunu yalnız Ezici tam kırar; diğer vuruşlar bloğa yarım işler."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Taş Golem",
+   "ikon": "🗿",
+   "sinif": "1. Bölge · Güçlü",
+   "can": 52,
+   "zayif": [
+    "Ezici"
+   ],
+   "direncli": [
+    "Kesici"
+   ],
+   "ozellik": [
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Kabuklu: Bloğunu yalnız Ezici tam kırar; diğer vuruşlar bloğa yarım işler."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Zehirli Cadı",
+   "ikon": "🧙",
+   "sinif": "1. Bölge · Güçlü",
+   "can": 50,
+   "zayif": [
+    "Kutsal"
+   ],
+   "direncli": [
+    "Zehir"
+   ],
+   "ozellik": [
+    "Büyü Kalkanı: Her turun ilk element tepkimesi söner.",
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kan Yarasası",
+   "ikon": "🦇",
+   "sinif": "1. Bölge · Güçlü",
+   "can": 44,
+   "zayif": [
+    "Şimşek"
+   ],
+   "direncli": [
+    "Gölge"
+   ],
+   "ozellik": [
+    "Taklitçi: Aynı türden art arda gelen saldırılar yarım işler. Türleri değiştir."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Karabasan",
+   "ikon": "🐎",
+   "sinif": "1. Bölge · Güçlü",
+   "can": 48,
+   "zayif": [
+    "Kutsal"
+   ],
+   "direncli": [
+    "Kesici"
+   ],
+   "ozellik": [
+    "Yansıtan Pullar: Her turun ilk saldırısını pulları emer ve yarısını sana yansıtır. Önce zayıf bir vuruşla pulları harca."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Lanetli Mumya",
+   "ikon": "🕯️",
+   "sinif": "1. Bölge · Güçlü",
+   "can": 48,
+   "zayif": [
+    "Ateş"
+   ],
+   "direncli": [
+    "Zehir"
+   ],
+   "ozellik": [
+    "Ateşe Dirençli: Yanık yarıya iner."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Ruh Feneri",
+   "ikon": "🏮",
+   "sinif": "1. Bölge · Güçlü",
+   "can": 42,
+   "zayif": [
+    "Gölge"
+   ],
+   "direncli": [
+    "Kutsal"
+   ],
+   "ozellik": [
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Zırhlı Şövalye",
+   "ikon": "🛡️",
+   "sinif": "1. Bölge · Elit",
+   "can": 80,
+   "zayif": [
+    "Şimşek"
+   ],
+   "direncli": [
+    "Kesici"
+   ],
+   "ozellik": [
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Dikenli: Ona vuran her saldırı 2 hasar geri alır.",
+    "Kabuklu: Bloğunu yalnız Ezici tam kırar; diğer vuruşlar bloğa yarım işler."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Alev Ejderi",
+   "ikon": "🐲",
+   "sinif": "1. Bölge · Elit",
+   "can": 76,
+   "zayif": [
+    "Buz"
+   ],
+   "direncli": [
+    "Ateş"
+   ],
+   "ozellik": [
+    "Ateşe Dirençli: Yanık yarıya iner.",
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez).",
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Antik Otomaton",
+   "ikon": "⚙️",
+   "sinif": "1. Bölge · Elit",
+   "can": 84,
+   "zayif": [
+    "Zehir"
+   ],
+   "direncli": [
+    "Delici"
+   ],
+   "ozellik": [
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Hızlı: Her 3. turda iki hamle yapar.",
+    "Taklitçi: Aynı türden art arda gelen saldırılar yarım işler. Türleri değiştir."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Taş Gargoyle",
+   "ikon": "🪨",
+   "sinif": "1. Bölge · Elit",
+   "can": 78,
+   "zayif": [
+    "Ezici"
+   ],
+   "direncli": [
+    "Buz"
+   ],
+   "ozellik": [
+    "Kalabalık: 2 muhafızla başlar.",
+    "Soğuğa Dirençli: Soğuk yarıya iner.",
+    "Yansıtan Pullar: Her turun ilk saldırısını pulları emer ve yarısını sana yansıtır. Önce zayıf bir vuruşla pulları harca."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Yargıç Otomaton",
+   "ikon": "🤖",
+   "sinif": "1. Bölge · Elit",
+   "can": 86,
+   "zayif": [
+    "Gölge"
+   ],
+   "direncli": [
+    "Büyü"
+   ],
+   "ozellik": [
+    "Büyü Kalkanı: Her turun ilk element tepkimesi söner.",
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "KÜL KRALI",
+   "ikon": "👑",
+   "sinif": "1. Bölge · Boss",
+   "can": 150,
+   "zayif": [
+    "Kutsal",
+    "Buz"
+   ],
+   "direncli": [
+    "Ateş",
+    "Gölge"
+   ],
+   "ozellik": [
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez).",
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna.",
+    "Taklitçi: Aynı türden art arda gelen saldırılar yarım işler. Türleri değiştir."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "KÜL HİDRASI",
+   "ikon": "🐉",
+   "sinif": "1. Bölge · Boss",
+   "can": 156,
+   "zayif": [
+    "Ateş",
+    "Kesici"
+   ],
+   "direncli": [
+    "Zehir",
+    "Büyü"
+   ],
+   "ozellik": [
+    "Yenilenen: Her tur 3 can yeniler.",
+    "Zehre Bağışık: Zehir yarıya iner.",
+    "Yansıtan Pullar: Her turun ilk saldırısını pulları emer ve yarısını sana yansıtır. Önce zayıf bir vuruşla pulları harca.",
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Kızıl Örümcek",
+   "ikon": "🕷️",
+   "sinif": "2. Bölge · Sıradan",
+   "can": 52,
+   "zayif": [
+    "Ateş"
+   ],
+   "direncli": [
+    "Zehir"
+   ],
+   "ozellik": [],
+   "fazli": false
+  },
+  {
+   "ad": "Alev Cini",
+   "ikon": "🔥",
+   "sinif": "2. Bölge · Sıradan",
+   "can": 50,
+   "zayif": [
+    "Buz"
+   ],
+   "direncli": [
+    "Ateş"
+   ],
+   "ozellik": [
+    "Ateşe Dirençli: Yanık yarıya iner.",
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Hayalet",
+   "ikon": "👻",
+   "sinif": "2. Bölge · Sıradan",
+   "can": 46,
+   "zayif": [
+    "Kutsal",
+    "Büyü"
+   ],
+   "direncli": [
+    "Kesici",
+    "Ezici"
+   ],
+   "ozellik": [
+    "Büyü Kalkanı: Her turun ilk element tepkimesi söner."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kül Harpyası",
+   "ikon": "🦅",
+   "sinif": "2. Bölge · Sıradan",
+   "can": 52,
+   "zayif": [
+    "Delici"
+   ],
+   "direncli": [
+    "Şimşek"
+   ],
+   "ozellik": [
+    "Hızlı: Her 3. turda iki hamle yapar.",
+    "Taklitçi: Aynı türden art arda gelen saldırılar yarım işler. Türleri değiştir."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kemik Kukla",
+   "ikon": "🧟",
+   "sinif": "2. Bölge · Sıradan",
+   "can": 58,
+   "zayif": [
+    "Ezici"
+   ],
+   "direncli": [
+    "Gölge"
+   ],
+   "ozellik": [
+    "Kalabalık: 2 muhafızla başlar.",
+    "Kabuklu: Bloğunu yalnız Ezici tam kırar; diğer vuruşlar bloğa yarım işler."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kaos Gözü",
+   "ikon": "👁️",
+   "sinif": "2. Bölge · Sıradan",
+   "can": 50,
+   "zayif": [
+    "Delici"
+   ],
+   "direncli": [
+    "Büyü"
+   ],
+   "ozellik": [
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kor Akrebi",
+   "ikon": "🦂",
+   "sinif": "2. Bölge · Güçlü",
+   "can": 64,
+   "zayif": [
+    "Buz"
+   ],
+   "direncli": [
+    "Ateş"
+   ],
+   "ozellik": [
+    "Dikenli: Ona vuran her saldırı 2 hasar geri alır."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Zırhlı Akrep",
+   "ikon": "🦞",
+   "sinif": "2. Bölge · Güçlü",
+   "can": 70,
+   "zayif": [
+    "Şimşek"
+   ],
+   "direncli": [
+    "Delici"
+   ],
+   "ozellik": [
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Kabuklu: Bloğunu yalnız Ezici tam kırar; diğer vuruşlar bloğa yarım işler."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Magma Golemi",
+   "ikon": "🗿",
+   "sinif": "2. Bölge · Güçlü",
+   "can": 74,
+   "zayif": [
+    "Buz"
+   ],
+   "direncli": [
+    "Ateş"
+   ],
+   "ozellik": [
+    "Ateşe Dirençli: Yanık yarıya iner.",
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Ateş Yarasası",
+   "ikon": "🦇",
+   "sinif": "2. Bölge · Güçlü",
+   "can": 56,
+   "zayif": [
+    "Delici"
+   ],
+   "direncli": [
+    "Kutsal"
+   ],
+   "ozellik": [
+    "Hızlı: Her 3. turda iki hamle yapar.",
+    "Taklitçi: Aynı türden art arda gelen saldırılar yarım işler. Türleri değiştir."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kor Solucanı",
+   "ikon": "🐛",
+   "sinif": "2. Bölge · Güçlü",
+   "can": 70,
+   "zayif": [
+    "Kesici"
+   ],
+   "direncli": [
+    "Zehir"
+   ],
+   "ozellik": [
+    "Yenilenen: Her tur 3 can yeniler.",
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kan Şövalyesi",
+   "ikon": "🩸",
+   "sinif": "2. Bölge · Güçlü",
+   "can": 68,
+   "zayif": [
+    "Kutsal"
+   ],
+   "direncli": [
+    "Gölge"
+   ],
+   "ozellik": [
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez).",
+    "Yansıtan Pullar: Her turun ilk saldırısını pulları emer ve yarısını sana yansıtır. Önce zayıf bir vuruşla pulları harca."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Şeytan Lordu",
+   "ikon": "😈",
+   "sinif": "2. Bölge · Elit",
+   "can": 108,
+   "zayif": [
+    "Kutsal"
+   ],
+   "direncli": [
+    "Ateş"
+   ],
+   "ozellik": [
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez).",
+    "Ateşe Dirençli: Yanık yarıya iner.",
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Kor Ejderi",
+   "ikon": "🐲",
+   "sinif": "2. Bölge · Elit",
+   "can": 102,
+   "zayif": [
+    "Zehir"
+   ],
+   "direncli": [
+    "Buz"
+   ],
+   "ozellik": [
+    "Ateşe Dirençli: Yanık yarıya iner.",
+    "Hızlı: Her 3. turda iki hamle yapar.",
+    "Taklitçi: Aynı türden art arda gelen saldırılar yarım işler. Türleri değiştir."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Kara Şövalye",
+   "ikon": "⚔️",
+   "sinif": "2. Bölge · Elit",
+   "can": 100,
+   "zayif": [
+    "Büyü"
+   ],
+   "direncli": [
+    "Kesici"
+   ],
+   "ozellik": [
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Dikenli: Ona vuran her saldırı 2 hasar geri alır.",
+    "Kabuklu: Bloğunu yalnız Ezici tam kırar; diğer vuruşlar bloğa yarım işler.",
+    "Yansıtan Pullar: Her turun ilk saldırısını pulları emer ve yarısını sana yansıtır. Önce zayıf bir vuruşla pulları harca."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Ruh Lich’i",
+   "ikon": "🔮",
+   "sinif": "2. Bölge · Elit",
+   "can": 94,
+   "zayif": [
+    "Ateş"
+   ],
+   "direncli": [
+    "Kutsal"
+   ],
+   "ozellik": [
+    "Büyü Kalkanı: Her turun ilk element tepkimesi söner.",
+    "Yenilenen: Her tur 3 can yeniler.",
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Hiçlik Sfenksi",
+   "ikon": "🦁",
+   "sinif": "2. Bölge · Elit",
+   "can": 104,
+   "zayif": [
+    "Gölge"
+   ],
+   "direncli": [
+    "Büyü"
+   ],
+   "ozellik": [
+    "Soğuğa Dirençli: Soğuk yarıya iner.",
+    "Kalabalık: 2 muhafızla başlar.",
+    "Taklitçi: Aynı türden art arda gelen saldırılar yarım işler. Türleri değiştir."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Kan Kontu",
+   "ikon": "🧛",
+   "sinif": "2. Bölge · Elit",
+   "can": 102,
+   "zayif": [
+    "Zehir"
+   ],
+   "direncli": [
+    "Delici"
+   ],
+   "ozellik": [
+    "Yenilenen: Her tur 3 can yeniler.",
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez).",
+    "Yansıtan Pullar: Her turun ilk saldırısını pulları emer ve yarısını sana yansıtır. Önce zayıf bir vuruşla pulları harca."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "KIZIL KRAL",
+   "ikon": "🌋",
+   "sinif": "2. Bölge · Boss",
+   "can": 196,
+   "zayif": [
+    "Buz",
+    "Gölge"
+   ],
+   "direncli": [
+    "Ateş",
+    "Şimşek"
+   ],
+   "ozellik": [
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez).",
+    "Ateşe Dirençli: Yanık yarıya iner.",
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna.",
+    "Kabuklu: Bloğunu yalnız Ezici tam kırar; diğer vuruşlar bloğa yarım işler."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "İskelet Akıncı",
+   "ikon": "💀",
+   "sinif": "1. Bölge · Sıradan",
+   "can": 30,
+   "zayif": [
+    "Ezici"
+   ],
+   "direncli": [
+    "Zehir"
+   ],
+   "ozellik": [
+    "Kalabalık: 2 muhafızla başlar."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Veba Simyacısı",
+   "ikon": "⚗️",
+   "sinif": "1. Bölge · Güçlü",
+   "can": 48,
+   "zayif": [
+    "Ateş"
+   ],
+   "direncli": [
+    "Zehir"
+   ],
+   "ozellik": [
+    "Zehre Bağışık: Zehir yarıya iner.",
+    "Taklitçi: Aynı türden art arda gelen saldırılar yarım işler. Türleri değiştir."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kül Gladyatörü",
+   "ikon": "🏛️",
+   "sinif": "1. Bölge · Güçlü",
+   "can": 54,
+   "zayif": [
+    "Delici"
+   ],
+   "direncli": [
+    "Kesici"
+   ],
+   "ozellik": [
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez)."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Mantar Sümüklüsü",
+   "ikon": "🐌",
+   "sinif": "2. Bölge · Sıradan",
+   "can": 60,
+   "zayif": [
+    "Ateş"
+   ],
+   "direncli": [
+    "Buz"
+   ],
+   "ozellik": [
+    "Yenilenen: Her tur 3 can yeniler.",
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kanat Hortlağı",
+   "ikon": "🦇",
+   "sinif": "2. Bölge · Sıradan",
+   "can": 50,
+   "zayif": [
+    "Kutsal"
+   ],
+   "direncli": [
+    "Gölge"
+   ],
+   "ozellik": [
+    "Hızlı: Her 3. turda iki hamle yapar."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kemik Cellat",
+   "ikon": "🪓",
+   "sinif": "2. Bölge · Güçlü",
+   "can": 72,
+   "zayif": [
+    "Ezici",
+    "Kutsal"
+   ],
+   "direncli": [
+    "Kesici"
+   ],
+   "ozellik": [
+    "Dikenli: Ona vuran her saldırı 2 hasar geri alır.",
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Ölü Çağırıcı",
+   "ikon": "🌀",
+   "sinif": "2. Bölge · Güçlü",
+   "can": 62,
+   "zayif": [
+    "Kutsal"
+   ],
+   "direncli": [
+    "Gölge"
+   ],
+   "ozellik": [
+    "Büyü Kalkanı: Her turun ilk element tepkimesi söner.",
+    "Yansıtan Pullar: Her turun ilk saldırısını pulları emer ve yarısını sana yansıtır. Önce zayıf bir vuruşla pulları harca."
+   ],
+   "fazli": false
+  },
+  {
+   "ad": "Kılıçlı Trol",
+   "ikon": "🧌",
+   "sinif": "1. Bölge · Elit",
+   "can": 88,
+   "zayif": [
+    "Ateş"
+   ],
+   "direncli": [
+    "Ezici"
+   ],
+   "ozellik": [
+    "Yenilenen: Her tur 3 can yeniler.",
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Kabuklu: Bloğunu yalnız Ezici tam kırar; diğer vuruşlar bloğa yarım işler."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Taş Melek",
+   "ikon": "🗿",
+   "sinif": "1. Bölge · Elit",
+   "can": 82,
+   "zayif": [
+    "Ezici"
+   ],
+   "direncli": [
+    "Kesici",
+    "Delici"
+   ],
+   "ozellik": [
+    "Kalabalık: 2 muhafızla başlar.",
+    "Yansıtan Pullar: Her turun ilk saldırısını pulları emer ve yarısını sana yansıtır. Önce zayıf bir vuruşla pulları harca."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Kızıl Ejder",
+   "ikon": "🐉",
+   "sinif": "2. Bölge · Elit",
+   "can": 106,
+   "zayif": [
+    "Buz"
+   ],
+   "direncli": [
+    "Ateş"
+   ],
+   "ozellik": [
+    "Ateşe Dirençli: Yanık yarıya iner.",
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez).",
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "Kemik Nekromansı",
+   "ikon": "☠️",
+   "sinif": "2. Bölge · Elit",
+   "can": 98,
+   "zayif": [
+    "Kutsal",
+    "Ateş"
+   ],
+   "direncli": [
+    "Zehir",
+    "Gölge"
+   ],
+   "ozellik": [
+    "Büyü Kalkanı: Her turun ilk element tepkimesi söner.",
+    "Kalabalık: 2 muhafızla başlar.",
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "KADİM KRAL",
+   "ikon": "🤴",
+   "sinif": "1. Bölge · Boss",
+   "can": 154,
+   "zayif": [
+    "Şimşek",
+    "Delici"
+   ],
+   "direncli": [
+    "Kesici",
+    "Ezici"
+   ],
+   "ozellik": [
+    "Zırhlı: Savaşa 10 blokla başlar, her tur 4 blok.",
+    "Öfkeli: Bir turda 20+ hasar alırsa +1 güç (savaşta en çok 3 kez).",
+    "Sayıcı: Bir turda oynadığın 4. karttan itibaren her kart ona 3 blok verir. Az ama güçlü kart oyna.",
+    "Yansıtan Pullar: Her turun ilk saldırısını pulları emer ve yarısını sana yansıtır. Önce zayıf bir vuruşla pulları harca."
+   ],
+   "fazli": true
+  },
+  {
+   "ad": "DÜŞMÜŞ MELEK",
+   "ikon": "😇",
+   "sinif": "2. Bölge · Boss",
+   "can": 200,
+   "zayif": [
+    "Gölge",
+    "Zehir"
+   ],
+   "direncli": [
+    "Kutsal",
+    "Büyü"
+   ],
+   "ozellik": [
+    "Büyü Kalkanı: Her turun ilk element tepkimesi söner.",
+    "Hızlı: Her 3. turda iki hamle yapar.",
+    "Taklitçi: Aynı türden art arda gelen saldırılar yarım işler. Türleri değiştir.",
+    "Büyü Yiyen: Oynadığın her Beceri ve Güç kartı onu 4 iyileştirir."
+   ],
+   "fazli": true
+  }
+ ],
+ "durumlar": [
+  {
+   "ad": "Yanık",
+   "ikon": "🔥",
+   "aciklama": "Düşmanın tur başında yığın kadar hasar alır, sonra 1 azalır."
+  },
+  {
+   "ad": "Soğuk",
+   "ikon": "❄️",
+   "aciklama": "Her yığın düşmanın saldırısını %8 azaltır. 3 yığında Donma (çözüldükten sonra 2 tur donmaz)."
+  },
+  {
+   "ad": "Donma",
+   "ikon": "🧊",
+   "aciklama": "Düşman bir sonraki hamlesini kaçırır."
+  },
+  {
+   "ad": "Zehir",
+   "ikon": "☠️",
+   "aciklama": "Düşmanın tur başında yığın kadar hasar, sonra 1 azalır."
+  },
+  {
+   "ad": "Yük",
+   "ikon": "⚡",
+   "aciklama": "3 yığında boşalır: 9 hasar ve 1 Sersem."
+  },
+  {
+   "ad": "Kanama",
+   "ikon": "🩸",
+   "aciklama": "Düşman saldırdıkça yığın kadar hasar alır, sonra 1 azalır."
+  },
+  {
+   "ad": "Lanet",
+   "ikon": "🌑",
+   "aciklama": "Yığın başına aldığı hasar +%10 (en çok +%50). Tur sonu 1 azalır."
+  },
+  {
+   "ad": "Işık İzi",
+   "ikon": "✨",
+   "aciklama": "Kutsal vuruşlar her 2 yığın için +1 hasar. Tur sonu 1 azalır."
+  },
+  {
+   "ad": "Zayıf",
+   "ikon": "🎯",
+   "aciklama": "%50 fazla hasar alır. Tur sonu 1 azalır."
+  },
+  {
+   "ad": "Sersem",
+   "ikon": "💫",
+   "aciklama": "3 yığında bir hamle kaçırır."
+  },
+  {
+   "ad": "Muhafız",
+   "ikon": "🛡️",
+   "aciklama": "Her yığın bir vuruşu tamamen karşılar. Alan kartları hepsini yok eder."
+  }
+ ],
+ "turler": [
+  {
+   "ad": "Kesici",
+   "ikon": "⚔️",
+   "renk": "#e8e2d0",
+   "saldiri": true,
+   "element": false
+  },
+  {
+   "ad": "Ezici",
+   "ikon": "🔨",
+   "renk": "#c89a6a",
+   "saldiri": true,
+   "element": false
+  },
+  {
+   "ad": "Delici",
+   "ikon": "🏹",
+   "renk": "#b8d8a0",
+   "saldiri": true,
+   "element": false
+  },
+  {
+   "ad": "Büyü",
+   "ikon": "✦",
+   "renk": "#c9a0ff",
+   "saldiri": true,
+   "element": false
+  },
+  {
+   "ad": "Ateş",
+   "ikon": "🔥",
+   "renk": "#ff7a3a",
+   "saldiri": true,
+   "element": true
+  },
+  {
+   "ad": "Buz",
+   "ikon": "❄️",
+   "renk": "#8fdcff",
+   "saldiri": true,
+   "element": true
+  },
+  {
+   "ad": "Zehir",
+   "ikon": "☠️",
+   "renk": "#7fe36a",
+   "saldiri": true,
+   "element": true
+  },
+  {
+   "ad": "Şimşek",
+   "ikon": "⚡",
+   "renk": "#ffe45a",
+   "saldiri": true,
+   "element": true
+  },
+  {
+   "ad": "Kutsal",
+   "ikon": "✨",
+   "renk": "#ffe9a8",
+   "saldiri": true,
+   "element": true
+  },
+  {
+   "ad": "Gölge",
+   "ikon": "🌑",
+   "renk": "#9a7acc",
+   "saldiri": true,
+   "element": true
+  },
+  {
+   "ad": "Savunma",
+   "ikon": "🛡️",
+   "renk": "#7fb2ff",
+   "saldiri": false,
+   "element": false
+  },
+  {
+   "ad": "Beceri",
+   "ikon": "🎴",
+   "renk": "#d8d0ff",
+   "saldiri": false,
+   "element": false
+  },
+  {
+   "ad": "Güç",
+   "ikon": "💠",
+   "renk": "#ffb0e0",
+   "saldiri": false,
+   "element": false
+  },
+  {
+   "ad": "Kurban",
+   "ikon": "🩸",
+   "renk": "#ff6070",
+   "saldiri": false,
+   "element": false
+  }
+ ],
+ "kalintilar": [
+  {
+   "ad": "Kor Kalbi",
+   "ikon": "❤️‍🔥",
+   "aciklama": "Her tur +1 enerji."
+  },
+  {
+   "ad": "Eski Defter",
+   "ikon": "📖",
+   "aciklama": "Her tur +1 kart çek."
+  },
+  {
+   "ad": "Zincir Tılsımı",
+   "ikon": "⛓️",
+   "aciklama": "Her tura zincir 2 ile başlarsın."
+  },
+  {
+   "ad": "Kanlı Diş",
+   "ikon": "🦷",
+   "aciklama": "Her kombo 2 can yeniler."
+  },
+  {
+   "ad": "Alev Taşı",
+   "ikon": "🔥",
+   "aciklama": "Savaş başında düşmana 3 Yanık."
+  },
+  {
+   "ad": "Buz Kalbi",
+   "ikon": "❄️",
+   "aciklama": "Savaş başında düşmana 2 Soğuk."
+  },
+  {
+   "ad": "Zehir Şişesi",
+   "ikon": "🧪",
+   "aciklama": "Savaş başında düşmana 4 Zehir."
+  },
+  {
+   "ad": "Yıldırım Çubuğu",
+   "ikon": "⚡",
+   "aciklama": "Savaş başında düşmana 2 Yük."
+  },
+  {
+   "ad": "Kutsal Mum",
+   "ikon": "🕯️",
+   "aciklama": "Savaş başında 2 Işık İzi ve 3 can."
+  },
+  {
+   "ad": "Kara Mühür",
+   "ikon": "🌑",
+   "aciklama": "Savaş başında düşmana 2 Lanet."
+  },
+  {
+   "ad": "Demir Kalkan",
+   "ikon": "🛡️",
+   "aciklama": "Her tur 3 blok."
+  },
+  {
+   "ad": "Keskin Göz",
+   "ikon": "🎯",
+   "aciklama": "+%15 kritik şansı."
+  },
+  {
+   "ad": "Ruh Taşı",
+   "ikon": "💠",
+   "aciklama": "Her element tepkimesi 2 blok verir."
+  },
+  {
+   "ad": "Kombo Kolyesi",
+   "ikon": "📿",
+   "aciklama": "Her turun ilk kombosu +1 enerji."
+  },
+  {
+   "ad": "Kurban Hançeri",
+   "ikon": "🗡️",
+   "aciklama": "Can ödediğinde ödediğinin yarısı kadar blok."
+  },
+  {
+   "ad": "Savaş Davulu",
+   "ikon": "🥁",
+   "aciklama": "Savaşa +2 Güç ile başla."
+  },
+  {
+   "ad": "Bitiş Yüzüğü",
+   "ikon": "💍",
+   "aciklama": "Bitiriciler zincirin yarısını korur."
+  },
+  {
+   "ad": "Dikenli Taç",
+   "ikon": "👑",
+   "aciklama": "Savaşa 3 Diken ile başla."
+  },
+  {
+   "ad": "Tüccar Kesesi",
+   "ikon": "💰",
+   "aciklama": "Savaşlardan %40 daha fazla altın."
+  },
+  {
+   "ad": "Anka Tüyü",
+   "ikon": "🪶",
+   "aciklama": "Ölümcül darbede bir kez %40 canla dirilirsin."
+  },
+  {
+   "ad": "Simya Kemeri",
+   "ikon": "⚗️",
+   "aciklama": "Her perde başında rastgele bir iksir."
+  },
+  {
+   "ad": "Kan Şişesi",
+   "ikon": "🫙",
+   "aciklama": "Savaş sonunda 6 can."
+  },
+  {
+   "ad": "Kor Ocağı",
+   "ikon": "🏮",
+   "aciklama": "Her tur 2 blok. Kor taşıdığın (enerji artırdığın) turlarda bunun yerine 6 blok ve 1 kart çek."
+  },
+  {
+   "ad": "Saklı Kese",
+   "ikon": "🎒",
+   "aciklama": "Bir kart saklayarak başladığın turlarda 4 blok ve +1 Güç (savaş boyu en çok +3)."
+  },
+  {
+   "ad": "Bozgun Mührü",
+   "ikon": "✂️",
+   "aciklama": "Savaşa +1 Güç ile başla. Hazırlanan bir saldırıyı bozduğunda düşmana 12 saf hasar ve sonraki tura +1 enerji."
+  },
+  {
+   "ad": "Avcı Büyüteci",
+   "ikon": "🔍",
+   "aciklama": "Zayıf noktaya isabet eden her vuruş 3 blok verir; her turun ilk isabeti 1 kart da çektirir."
+  },
+  {
+   "ad": "Zincir Kıran",
+   "ikon": "🔗",
+   "aciklama": "Bir turda zincir 5'e ulaştığında +1 enerji."
+  },
+  {
+   "ad": "Kül Feneri",
+   "ikon": "🕳️",
+   "aciklama": "Savaşa +3 Güç ile başlarsın ama ilk elin 1 kart eksik gelir."
+  }
+ ]
+}
